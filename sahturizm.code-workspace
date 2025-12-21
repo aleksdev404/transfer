@@ -4,16 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "./server/"
+			"path": "./src/"
 		},
 		{
-			"path": "./server/core/"
+			"path": "./src/core/"
 		},
 		{
-			"path": "./server/apps/transfer/"
-		},
-		{
-			"path": "./server/apps/transfer/"
+			"path": "./src/apps/transfer/"
 		},
 		{
 			"path": "./.theme/"
