@@ -1,4 +1,3 @@
-from django.utils.translation import gettext_lazy as _
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -8,12 +7,9 @@ SECRET_KEY = 'django-insecure-x1u465wiyq6mc&y7h2ds-61gk^pcsy1!3#ht+ic5lihlpcr0bb
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*',
-    'localhost:8000',
-    '170.187.187.90',
-    'sahturizm.com.tr'
+    'transfer.aleksdev.space'
 ]
-CSRF_TRUSTED_ORIGINS = ['https://sahturizm.com.tr']
+CSRF_TRUSTED_ORIGINS = ['https://transfer.aleksdev.space']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -83,20 +79,16 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'tr'
 LANGUAGES = [
-    ('en', _('English')),
-    ('tr', _('Turkish')),
-    ('de', _('Deutsch')),
-    ('ru', _('Russian'))
+    ('en', 'English'),
+    ('tr', 'Türkçe'),
+    ('de', 'Deutsch'),
+    ('ru', 'Русский')
 ]
-DEFAULT_LANGUAGE = LANGUAGES[0]
 MODELTRANSLATION_LANGUAGES = [i[0] for i in LANGUAGES]
-LOCALE_PATHS = [BASE_DIR / 'locale']
 
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
-USE_L10N = True
-
 USE_TZ = True
 
 STATIC_URL = 'static/'
