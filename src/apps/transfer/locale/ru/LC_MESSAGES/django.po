@@ -96,7 +96,7 @@ msgid "Luxury, Comfortable And Safe Transfer"
 msgstr "Удобный, комфортный и безопасный трансфер"
 
 #: .\apps\transfer\templates\origin\footer.django-html:30
-msgid "Tour itineraries"
+msgid "Excursion itineraries"
 msgstr "Экскурсионные программы"
 
 #: .\apps\transfer\templates\origin\footer.django-html:43
@@ -126,7 +126,7 @@ msgid "Get transfer"
 msgstr "Заказать трансфер"
 
 #: .\apps\transfer\templates\origin\footer.django-html:58
-msgid "Get Tour"
+msgid "Get Excursion"
 msgstr "Туры"
 
 #: .\apps\transfer\templates\origin\footer.django-html:61
@@ -185,7 +185,7 @@ msgstr "Широкий выбор цен и услуг"
 
 #: .\apps\transfer\templates\transfer\about.django-html:68
 #: .\apps\transfer\templates\transfer\home.django-html:195
-msgid "Tour programs"
+msgid "Excursion programs"
 msgstr "Тур программы"
 
 #: .\apps\transfer\templates\transfer\about.django-html:78
@@ -373,7 +373,7 @@ msgid "Category"
 msgstr "Категория"
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:46
-msgid "Tour duration"
+msgid "Excursion duration"
 msgstr "Длительность тура"
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:50
@@ -389,11 +389,11 @@ msgid "Tags"
 msgstr "Теги"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:7
-msgid "Tour List"
+msgid "Excursion List"
 msgstr "Список экскурсий"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:16
-msgid "Tour list"
+msgid "Excursion list"
 msgstr "Список экскурсий"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:17

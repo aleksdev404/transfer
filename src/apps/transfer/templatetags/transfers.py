@@ -15,7 +15,7 @@ def get_company_data():
 
 @register.simple_tag
 def get_latest_tours():
-    return models.Tour.objects.all()[:5]
+    return models.Excursion.objects.all()[:5]
 
 
 @register.simple_tag

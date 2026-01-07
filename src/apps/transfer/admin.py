@@ -108,23 +108,23 @@ class PlaceAdmin(admin.ModelAdmin):
     )
 
 
-@admin.register(models.Tour)
-class TourAdmin(admin.ModelAdmin):
+@admin.register(models.Excursion)
+class ExcursionAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'created'
     )
 
 
-@admin.register(models.TourCategory)
-class TourCategoryAdmin(admin.ModelAdmin):
+@admin.register(models.ExcursionCategory)
+class ExcursionCategoryAdmin(admin.ModelAdmin):
     list_display = (
         'name',
     )
 
 
-@admin.register(models.TourTag)
-class TourTagAdmin(admin.ModelAdmin):
+@admin.register(models.ExcursionTag)
+class ExcursionTagAdmin(admin.ModelAdmin):
     list_display = (
         'name',
     )

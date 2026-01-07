@@ -13,6 +13,9 @@
 			"path": "./src/apps/transfer/"
 		},
 		{
+			"path": "./src/apps/transfer/templates/"
+		},
+		{
 			"path": "./.theme/"
 		}
 	],

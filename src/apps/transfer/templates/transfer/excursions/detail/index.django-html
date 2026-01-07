@@ -43,7 +43,7 @@
                     <div class="sidebar-widget categories">
                         <ul>
                             <li>
-                                {% trans "Tour duration" %} :
+                                {% trans "Excursion duration" %} :
                                 <span>{{ tour.duration_hours }} saat</span>
                             </li>
                             <li>

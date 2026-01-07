@@ -26,7 +26,7 @@ class HomeView(SuccessMessageMixin, generic.CreateView):
         context = super().get_context_data(**kwargs)
         return {
             **context,
-            'tours': models.Tour.objects.all()[:3]
+            'tours': models.Excursion.objects.all()[:3]
         }
 
 
@@ -69,14 +69,14 @@ class OrderView(SuccessMessageMixin, generic.CreateView):
         )
 
 
-class TourDetailView(generic.DetailView):
-    model = models.Tour
-    template_name = 'transfer/tour-detail.django-html'
+class ExcursionDetailView(generic.DetailView):
+    model = models.Excursion
+    template_name = 'transfer/excursions/detail/index.django-html'
 
 
-class TourListView(generic.ListView):
-    model = models.Tour
-    template_name = 'transfer/tour-list.django-html'
+class ExcursionListView(generic.ListView):
+    model = models.Excursion
+    template_name = 'transfer/excursions/list.django-html'
     paginate_by = 9
 
 

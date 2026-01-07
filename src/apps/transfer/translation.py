@@ -2,7 +2,7 @@ from modeltranslation.translator import translator, TranslationOptions
 from . import models
 
 
-class TourTranslationOptions(TranslationOptions):
+class ExcursionTranslationOptions(TranslationOptions):
     fields = (
         'name',
         'excerpt',
@@ -10,13 +10,13 @@ class TourTranslationOptions(TranslationOptions):
     )
 
 
-class TourTagTranslationOptions(TranslationOptions):
+class ExcursionTagTranslationOptions(TranslationOptions):
     fields = (
         'name',
     )
 
 
-class TourCategoryTranslationOptions(TranslationOptions):
+class ExcursionCategoryTranslationOptions(TranslationOptions):
     fields = (
         'name',
     )
@@ -41,9 +41,9 @@ class PlaceTranslationOptions(TranslationOptions):
     )
 
 
-translator.register(models.Tour, TourTranslationOptions)
-translator.register(models.TourTag, TourTagTranslationOptions)
-translator.register(models.TourCategory, TourCategoryTranslationOptions) # noqa
+translator.register(models.Excursion, ExcursionTranslationOptions)
+translator.register(models.ExcursionTag, ExcursionTagTranslationOptions)
+translator.register(models.ExcursionCategory, ExcursionCategoryTranslationOptions) # noqa
 translator.register(models.WeekDay, WeekDayTranslationOptions)
 translator.register(models.FAQ, FAQTranslationOptions)
 translator.register(models.Place, PlaceTranslationOptions)

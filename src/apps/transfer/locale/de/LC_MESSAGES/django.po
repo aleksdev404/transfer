@@ -94,7 +94,7 @@ msgid "Luxury, Comfortable And Safe Transfer"
 msgstr "Luxuriöser, komfortabler und sicherer Transfer"
 
 #: .\apps\transfer\templates\origin\footer.django-html:30
-msgid "Tour itineraries"
+msgid "Excursion itineraries"
 msgstr "Reiserouten"
 
 #: .\apps\transfer\templates\origin\footer.django-html:43
@@ -124,8 +124,8 @@ msgid "Get transfer"
 msgstr "Abgeschlossene Überweisungen"
 
 #: .\apps\transfer\templates\origin\footer.django-html:58
-msgid "Get Tour"
-msgstr "Touren"
+msgid "Get Excursion"
+msgstr "Excursionen"
 
 #: .\apps\transfer\templates\origin\footer.django-html:61
 #: .\apps\transfer\templates\origin\header.django-html:89
@@ -139,7 +139,7 @@ msgstr "Kontakte"
 
 #: .\apps\transfer\templates\origin\header.django-html:86
 msgid "Get tour"
-msgstr "Touren"
+msgstr "Excursionen"
 
 #: .\apps\transfer\templates\origin\header.django-html:95
 #: .\apps\transfer\templates\origin\header.django-html:117
@@ -148,13 +148,13 @@ msgstr "ÜBERTRAGUNG KAUFEN"
 
 #: .\apps\transfer\templates\transfer\about.django-html:23
 msgid "20 years in tourism industry"
-msgstr "20 jahre in der Tourismusbranche"
+msgstr "20 jahre in der Excursionismusbranche"
 
 #: .\apps\transfer\templates\transfer\about.django-html:33
 msgid "We are a tour operator providing services in transfer and tour areas."
 msgstr ""
 "Wir sind ein Reiseveranstalter, der Dienstleistungen in Transfer- und "
-"Tourgebieten anbietet."
+"Excursiongebieten anbietet."
 
 #: .\apps\transfer\templates\transfer\about.django-html:36
 msgid ""
@@ -184,8 +184,8 @@ msgstr "Große Preisspanne"
 
 #: .\apps\transfer\templates\transfer\about.django-html:68
 #: .\apps\transfer\templates\transfer\home.django-html:195
-msgid "Tour programs"
-msgstr "Tourprogramme"
+msgid "Excursion programs"
+msgstr "Excursionprogramme"
 
 #: .\apps\transfer\templates\transfer\about.django-html:78
 #: .\apps\transfer\templates\transfer\home.django-html:205
@@ -303,7 +303,7 @@ msgid ""
 "tours, private tour programs for groups and individuals in Alanya, Side, "
 "Antalya, Pamukkale and Cappadocia regions."
 msgstr ""
-"Tägliche Touren, Ausflüge, Aktivitäten, Pauschalreiseprogramme, "
+"Tägliche Excursionen, Ausflüge, Aktivitäten, Pauschalreiseprogramme, "
 "Unterkunftstouren, private Reiseprogramme für Gruppen und Einzelpersonen in "
 "den Regionen Alanya, Side, Antalya, Pamukkale und Kappadokien."
 
@@ -370,7 +370,7 @@ msgid "Category"
 msgstr ""
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:46
-msgid "Tour duration"
+msgid "Excursion duration"
 msgstr ""
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:50
@@ -389,13 +389,13 @@ msgstr ""
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:7
 #, fuzzy
-#| msgid "Tour list"
-msgid "Tour List"
-msgstr "Tourenliste"
+#| msgid "Excursion list"
+msgid "Excursion List"
+msgstr "Excursionenliste"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:16
-msgid "Tour list"
-msgstr "Tourenliste"
+msgid "Excursion list"
+msgstr "Excursionenliste"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:17
 msgid "BEST ANTALIA TOURS, ACTIVITIES FOR BEST PRICES"
@@ -403,7 +403,7 @@ msgstr "BESTE ALANYA-TOUREN, AUSFLÜGE UND AKTIVITÄTEN ZU DEN BESTEN PREISEN"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:19
 msgid "Alania, Side, Antalia, Pamukkale, Cappadocia tours and more"
-msgstr "Alanya, Side, Antalya, Pamukkale, Kappadokien Touren und mehr"
+msgstr "Alanya, Side, Antalya, Pamukkale, Kappadokien Excursionen und mehr"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:47
 msgid "PREVIOUS"

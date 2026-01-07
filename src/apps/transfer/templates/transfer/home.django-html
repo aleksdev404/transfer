@@ -200,7 +200,7 @@
                         <span class="odometer" data-count="2">00</span>
                         <span class="target">+</span>
                     </h2>
-                    <p>{% trans "Tour programs" %}</p>
+                    <p>{% trans "Excursion programs" %}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">

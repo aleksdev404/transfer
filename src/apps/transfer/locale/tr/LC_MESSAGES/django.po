@@ -94,7 +94,7 @@ msgid "Luxury, Comfortable And Safe Transfer"
 msgstr "Lüks,Konforlu Ve Güvenli Transfer"
 
 #: .\apps\transfer\templates\origin\footer.django-html:30
-msgid "Tour itineraries"
+msgid "Excursion itineraries"
 msgstr "Tur programları"
 
 #: .\apps\transfer\templates\origin\footer.django-html:43
@@ -124,7 +124,7 @@ msgid "Get transfer"
 msgstr "Transfer Kayıt"
 
 #: .\apps\transfer\templates\origin\footer.django-html:58
-msgid "Get Tour"
+msgid "Get Excursion"
 msgstr "Tur listesi"
 
 #: .\apps\transfer\templates\origin\footer.django-html:61
@@ -183,7 +183,7 @@ msgstr "Geniş fiyat seçenekleri"
 
 #: .\apps\transfer\templates\transfer\about.django-html:68
 #: .\apps\transfer\templates\transfer\home.django-html:195
-msgid "Tour programs"
+msgid "Excursion programs"
 msgstr "Tur paketi"
 
 #: .\apps\transfer\templates\transfer\about.django-html:78
@@ -366,7 +366,7 @@ msgid "Category"
 msgstr "Kategori"
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:46
-msgid "Tour duration"
+msgid "Excursion duration"
 msgstr "Zamanlama"
 
 #: .\apps\transfer\templates\transfer\tour-detail.django-html:50
@@ -382,11 +382,11 @@ msgid "Tags"
 msgstr "Etiketler"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:7
-msgid "Tour List"
+msgid "Excursion List"
 msgstr "Tur listesi"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:16
-msgid "Tour list"
+msgid "Excursion list"
 msgstr "Tur listesi"
 
 #: .\apps\transfer\templates\transfer\tour-list.django-html:17

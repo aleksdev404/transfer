@@ -1,3 +1,5 @@
+from django_resized import ResizedImageField
+
 import uuid
 
 from django.db import models
@@ -119,7 +121,7 @@ class TransferExtended(Transfer, models.Model):
         return f'{self.iata} - {self.iata_back}'
 
 
-class TourCategory(models.Model):
+class ExcursionCategory(models.Model):
     name = models.CharField('Kategori adı', max_length=25)
 
     class Meta:
@@ -128,13 +130,13 @@ class TourCategory(models.Model):
         ordering = ('name',)
 
     def __repr__(self):
-        return f'<TourCategory {self.name}>'
+        return f'<ExcursionCategory {self.name}>'
 
     def __str__(self):
         return f'{self.name}'
 
 
-class TourTag(models.Model):
+class ExcursionTag(models.Model):
     name = models.CharField('Kategori etiketi', max_length=25)
 
     class Meta:
@@ -143,21 +145,32 @@ class TourTag(models.Model):
         ordering = ('name',)
 
     def __repr__(self):
-        return f'<TourTag {self.name}>'
+        return f'<ExcursionTag {self.name}>'
 
     def __str__(self):
         return f'{self.name}'
 
 
-class Tour(models.Model):
+class Excursion(models.Model):
     name = models.CharField('Tur adı', max_length=55)
     excerpt = models.TextField('Kısa açıklama')
     description = models.TextField('Açıklama')
     duration_hours = models.PositiveIntegerField('Tur süresi')
     created = models.DateField(auto_now_add=True)
-    image = models.ImageField('Resim', upload_to='transfer/tour/image/')
-    category = models.ForeignKey(verbose_name='Kategori', to=TourCategory, on_delete=models.SET_NULL, blank=True, null=True) # noqa ignore
-    tags = models.ManyToManyField(to=TourTag, blank=True)
+    image = ResizedImageField(
+        size=[1024, 724],
+        crop=['middle', 'center'],
+        quality=75,
+        upload_to="transfer/excursion/image"
+    )
+    image_head = ResizedImageField(
+        size=[1920, 600],
+        crop=['middle', 'center'],
+        quality=90,
+        upload_to="transfer/excursion/image"
+    )
+    category = models.ForeignKey(verbose_name='Kategori', to=ExcursionCategory, on_delete=models.SET_NULL, blank=True, null=True) # noqa ignore
+    tags = models.ManyToManyField(to=ExcursionTag, blank=True)
     video_link = models.URLField('Video linki', blank=True, null=True)
     time_start = models.TimeField('Başlangıç saati', blank=True, null=True)
     time_end = models.TimeField('Bitiş saati', blank=True, null=True)
@@ -169,7 +182,7 @@ class Tour(models.Model):
         ordering = ('name', 'created')
 
     def __repr__(self):
-        return f'<Tour {self.name}>'
+        return f'<Excursion {self.name}>'
 
     def __str__(self):
         return f'{self.name}'

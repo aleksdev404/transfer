@@ -4,21 +4,14 @@
 {% load i18n %}
 
 {% block title %}
-    {% trans "Tour List" %}
+    {% trans "Excursion List" %}
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='Get Tour' title_detail='BUY TOUR ONLINE' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
+{% include 'transfer/breadcrumb.django-html' with title='Get Excursion' title_detail='BUY EXCURSION ONLINE' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
 
 <section class="services-area services-area-two bg-color pt-100 pb-70">
     <div class="container">
-        <div class="section-title">
-            <span>{% trans "Tour list" %}</span>
-            <h2>{% trans "BEST ANTALIA TOURS, ACTIVITIES FOR BEST PRICES" %}</h2>
-            <p>
-                {% trans "Alania, Side, Antalia, Pamukkale, Cappadocia tours and more" %}
-            </p>
-        </div>
         <div class="row">
             {% for object in object_list %}
                 <div class="col-lg-4 col-sm-6">

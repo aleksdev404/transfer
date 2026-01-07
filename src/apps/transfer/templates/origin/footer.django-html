@@ -27,7 +27,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="single-footer-widget">
-                    <h3>{% trans "Tour itineraries" %}</h3>
+                    <h3>{% trans "Excursion itineraries" %}</h3>
                     <ul class="import-link">
                         {% get_latest_tours as tours %}
                         {% for tour in tours %}
@@ -55,7 +55,7 @@
                             <a href="{% url 'transfer:order' %}">{% trans "Get transfer" %}</a>
                         </li>
                         <li>
-                            <a href="{% url 'transfer:tour-list' %}">{% trans "Get Tour" %}</a>
+                            <a href="{% url 'transfer:tour-list' %}">{% trans "Get Excursion" %}</a>
                         </li>
                         <li>
                             <a href="{% url 'transfer:faq' %}">{% trans "FAQ" %}</a>
