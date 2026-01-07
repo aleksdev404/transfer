@@ -15,21 +15,30 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-10">
                     <ul class="header-left-content">
-                        <li>
-                            <i class="bx bx-home"></i>
-                            <a href="{{ company_data.address_link }}">
-                                {{ company_data.address }}
-                            </a>
-                        </li>
+                        {% if company_data.address and company_data.address_link %}
+                            <li>
+                                <i class="bx bx-home"></i>
+                                <a href="{{ company_data.address_link }}">
+                                    {{ company_data.address }}
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if company_data.phone and company_data.phone_repr %}
                         <li>
                             <i class="bx bx-phone-call"></i>
                             <a href="tel:{{ company_data.phone }}">{{ company_data.phone_repr }}</a>
                         </li>
-                        <li>
-                            <i class="bx bx-envelope"></i>
-                            <a
-                                href="mailto:{{ company_data.email }}"><span>{{ company_data.email }}</span></a>
-                        </li>
+                        {% endif %}
+                        {% if company_data.email %}
+                            <li>
+                                <i class="bx bx-envelope"></i>
+                                <a
+                                    href="mailto:{{ company_data.email }}"
+                                >
+                                    <span>{{ company_data.email }}</span>
+                                </a>
+                            </li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-2">
@@ -56,7 +65,7 @@
             <div class="container">
                 <div class="mobile-menu">
                     <a href="{% url 'transfer:home' %}">
-                        <img class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
+                        <img style="height: 1.5rem;" class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
                     </a>
                 </div>
             </div>
@@ -65,7 +74,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="{% url 'transfer:home' %}">
-                        <img class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
+                        <img style="height: 1.5rem !important" class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav m-auto">

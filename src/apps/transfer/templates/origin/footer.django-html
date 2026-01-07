@@ -12,7 +12,6 @@
                     <a href="index.html" class="logo">
                         <img style="height: 2rem;" src="{% static 'img/logo-dark.svg' %}" alt="Image">
                     </a>
-                    <p>{% trans "Luxury, Comfortable And Safe Transfer" %}</p>
                     <ul class="social-icon">
                         {% get_media as media %}
                         {% for media_item in media %}
@@ -94,6 +93,6 @@
         </div>
     </div>
 </footer>
-<a href="https://api.whatsapp.com/send?phone=905060335639" class="btn-whatsapp">
+<a target="_blank" href="https://api.whatsapp.com/send?phone={{company_data.phone_whatsapp}}" class="btn-whatsapp">
     <i class="fa-brands fa-whatsapp"></i>
 </a>
