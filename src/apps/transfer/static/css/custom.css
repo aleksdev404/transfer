@@ -1,0 +1,79 @@
+:root
+{
+    --border-radius-1: 12px; 
+    --border-1: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+*
+{
+    /* outline: 1px dashed rgba(255, 255, 255, 0.4); */
+}
+
+.input-group
+{
+    background: white;
+}
+
+.input-group,
+.default-btn,
+.page-title-area ul,
+.go-top, .go-top:hover,
+.tabs_item
+{
+    border-radius: var(--border-radius-1) !important;
+}
+
+.page-title-area ul.tabs
+{
+    border-end-end-radius: 0 !important;
+    border-end-start-radius: 0 !important;
+}
+
+.tabs_item
+{
+    border-start-start-radius: 0 !important;
+}
+
+
+.autoComplete_wrapper input
+{
+    color: black !important;
+    border-radius: var(--border-radius-1) !important;
+}
+
+.input-group-text
+{
+    border-radius: var(--border-radius-1);
+}
+
+.quote-price-content,
+.single-counter,
+.single-contact-info,
+nav.mean-nav
+{
+    border-radius: calc(var(--border-radius-1) * 2) !important;
+}
+
+.navbar-area.is-sticky
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+nav.mean-nav
+{
+    /* overflow: hidden; */
+    border-bottom: none !important;
+}
+
+.desktop-nav img.logo
+{
+    height: 18px !important;
+}
+
+.mobile-nav img.logo
+{
+    margin: 12px 0;
+    height: 18px;
+    width: auto;
+}

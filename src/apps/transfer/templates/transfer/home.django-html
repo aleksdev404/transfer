@@ -19,7 +19,10 @@
                     <div class="col-lg-7">
                         <div class="banner-content">
                             <span class="top-title wow animate__animated animate__fadeInDown"
-                                data-wow-delay="1s">ŞAH TURİZM</span>
+                                data-wow-delay="1s"
+                            >
+                                <i class="fa-solid fa-location-dot"></i> Istanbul, Turkey
+                            </span>
                             <h1 class="wow animate__animated animate__fadeInDown" data-wow-delay="1s">{% trans "Luxury, Comfortable And Safe Transfer" %}</h1>
                             <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="1s">
                                 {% trans "You can take advantage of our airport transfer service to catch your plane on time or to go to your destination comfortably after many tiring journeys." %}
@@ -63,9 +66,8 @@
                                     <div class="row">
                                         <div class="col-12 mb-3">
                                             <div class="form-group">
-                                                <label>{{ form.rfrom.label }}</label>
                                                 {% render_field form.rfrom id="selectFrom" hidden=True %}
-                                                <input id="autoCompleteFrom" class="autocomplete-custom" aria-autocomplete="false"/>
+                                                <input id="autoCompleteFrom" class="autocomplete-custom" autocomplete="off"/>
                                                 <script>
                                                     window.addEventListener("load", (event) => {
                                                         const selectFrom = document.getElementById('selectFrom')
@@ -103,7 +105,12 @@
                                             <div class="form-group">
                                                 <label>{{ form.rto.label }}</label>
                                                 {% render_field form.rto id="selectTo" hidden=True %}
-                                                <input id="autoCompleteTo" class="autocomplete-custom" aria-autocomplete="false"/>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">
+                                                        <i class="fa-solid fa-location-dot"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Istanbul, Rixos Tersane" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
                                                 <script>
                                                     window.addEventListener("load", (event) => {
                                                         const selectTo = document.getElementById('selectTo')
@@ -136,72 +143,6 @@
 
                                                     });
                                                 </script>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.pax.label }}</label>
-                                                {% render_field form.pax class="form-control bg-white" %}
-                                                {% for error in form.pax.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.baggage.label }}</label>
-                                                {% render_field form.baggage class="form-control bg-white" %}
-                                                {% for error in form.baggage.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.date.label }}</label>
-                                                {% render_field form.date class="form-control bg-white" type="date" %}
-                                                {% for error in form.date.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.time.label }}</label>
-                                                {% render_field form.time class="form-control bg-white" type="time" %}
-                                                {% for error in form.time.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.email.label }}</label>
-                                                {% render_field form.email class="form-control bg-white" %}
-                                                {% for error in form.email.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                        <div class="col-6 mb-3">
-                                            <div class="form-group">
-                                                <label>{{ form.phone.label }}</label>
-                                                {% render_field form.phone class="form-control bg-white" %}
-                                                {% for error in form.phone.errors %}
-                                                    <small class="text-warning">
-                                                        {{ error }}
-                                                    </small>
-                                                {% endfor %}
                                             </div>
                                         </div>
                                     </div>

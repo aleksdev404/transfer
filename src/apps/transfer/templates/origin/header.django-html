@@ -57,11 +57,9 @@
         <div class="mobile-nav">
             <div class="container">
                 <div class="mobile-menu">
-                    <div class="logo">
-                        <a href="{% url 'transfer:home' %}">
-                            <img src="{% static 'img/logo.svg' %}" alt="logo">
-                        </a>
-                    </div>
+                    <a href="{% url 'transfer:home' %}">
+                        <img class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
+                    </a>
                 </div>
             </div>
         </div>
@@ -69,7 +67,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="{% url 'transfer:home' %}">
-                        <img src="{% static 'img/logo.svg' %}" alt="logo" style="height: 50px;">
+                        <img class="logo" src="{% static 'img/logo.svg' %}" alt="logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav m-auto">

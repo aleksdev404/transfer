@@ -47,8 +47,7 @@
                                     <div class="col-12">
                                         <p>{% trans "Personal data" %}</p>
                                     </div>
-                                    <br>
-                                    <br>
+
                                     <div class="col-lg-4 col-sm-6">
                                         <div class="form-group">
                                             {% render_field form.first_name class="form-control bg-white" placeholder=form.first_name.label %}
@@ -69,6 +68,7 @@
                                             {% endfor %}
                                         </div>
                                     </div>
+                                    <div class="col-lg-4 col-sm-6"></div>
                                     <div class="col-lg-4 col-sm-6">
                                         <div class="form-group">
                                             {% render_field form.phone class="form-control bg-white" placeholder=form.phone.label %}
@@ -90,7 +90,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <br>
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-6 mb-3">
                                         <p>{% trans "Start location" %}</p>
@@ -177,76 +176,68 @@
                                             </script>
                                         </div>
                                     </div>
-                                    <br><br><br>
-                                    <p class="text-center">
+                                    <p class="text-center mb-5">
                                         {% trans "If you wish, you can create both a round trip and a return transfer within the scope of the same request, for this click the blue arrow button above." %}
                                     </p>
-                                    <br>
-                                    <br>
-                                    <br>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <p>{% trans "Transfer data" %}</p>
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            {% render_field form.date class="form-control bg-white" placeholder=form.date.label type='date' %}
-                                            {% for error in form.date.errors %}
-                                                <small class="text-warning">
-                                                    {{ error }}
-                                                </small>
-                                            {% endfor %}
+                                <div>
+                                    <p>{% trans "Transfer data" %}</p>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="form-group">
+                                                {% render_field form.date class="form-control bg-white" placeholder=form.date.label type='date' %}
+                                                {% for error in form.date.errors %}
+                                                    <small class="text-warning">
+                                                        {{ error }}
+                                                    </small>
+                                                {% endfor %}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            {% render_field form.time class="form-control bg-white" placeholder=form.time.label type='time' %}
-                                            {% for error in form.time.errors %}
-                                                <small class="text-warning">
-                                                    {{ error }}
-                                                </small>
-                                            {% endfor %}
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="form-group">
+                                                {% render_field form.time class="form-control bg-white" placeholder=form.time.label type='time' %}
+                                                {% for error in form.time.errors %}
+                                                    <small class="text-warning">
+                                                        {{ error }}
+                                                    </small>
+                                                {% endfor %}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            {% render_field form.iata class="form-control bg-white" placeholder=form.iata.label %}
-                                            {% for error in form.iata.errors %}
-                                                <small class="text-warning">
-                                                    {{ error }}
-                                                </small>
-                                            {% endfor %}
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="form-group">
+                                                {% render_field form.iata class="form-control bg-white" placeholder=form.iata.label %}
+                                                {% for error in form.iata.errors %}
+                                                    <small class="text-warning">
+                                                        {{ error }}
+                                                    </small>
+                                                {% endfor %}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            {% render_field form.pax class="form-control bg-white" placeholder=form.pax.label %}
-                                            {% for error in form.pax.errors %}
-                                                <small class="text-warning">
-                                                    {{ error }}
-                                                </small>
-                                            {% endfor %}
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="form-group">
+                                                {% render_field form.pax class="form-control bg-white" placeholder=form.pax.label %}
+                                                {% for error in form.pax.errors %}
+                                                    <small class="text-warning">
+                                                        {{ error }}
+                                                    </small>
+                                                {% endfor %}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="form-group">
-                                            {% render_field form.baggage class="form-control bg-white" placeholder=form.baggage.label %}
-                                            {% for error in form.baggage.errors %}
-                                                <small class="text-warning">
-                                                    {{ error }}
-                                                </small>
-                                            {% endfor %}
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="form-group">
+                                                {% render_field form.baggage class="form-control bg-white" placeholder=form.baggage.label %}
+                                                {% for error in form.baggage.errors %}
+                                                    <small class="text-warning">
+                                                        {{ error }}
+                                                    </small>
+                                                {% endfor %}
+                                            </div>
                                         </div>
                                     </div>
                                     <div id="backBlock" class="d-none row">
                                         <div class="col-12">
                                             <p>{% trans "Reverse (back) transfer data" %}</p>
                                         </div>
-                                        <br>
-                                        <br>
                                         <div class="col-lg-4 col-sm-6">
                                             <div class="form-group">
                                                 {% render_field form.date_back class="form-control bg-white" placeholder=form.date.label type='date' %}
