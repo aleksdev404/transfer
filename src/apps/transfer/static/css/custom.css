@@ -59,7 +59,6 @@
 .quote-price-content,
 .single-counter,
 .single-contact-info,
-nav.mean-nav
 {
     border-radius: calc(var(--border-radius-1) * 2) !important;
 }
@@ -86,4 +85,9 @@ nav.mean-nav
     margin: 12px 0;
     height: 18px;
     width: auto;
+}
+
+.mean-container .mean-nav ul li:first-child a
+{
+    border-top: none;
 }
