@@ -72,21 +72,27 @@
                 <div class="single-footer-widget">
                     <h3>{% trans "Contact data" %}</h3>
                     <ul class="address">
+                        {% if company_data.address %}
                         <li class="location">
                             <i class="bx bxs-location-plus"></i>
                             <a href="{{ company_data.address_link }}">
                                 {{ company_data.address }}
                             </a>
                         </li>
+                        {% endif %}
+                        {% if company_data.email %}
                         <li>
                             <i class="bx bxs-envelope"></i>
                             <a
                                 href="mailto:{{ company_data.email }}"><span>{{ company_data.email }}</span></a>
                         </li>
+                        {% endif %}
+                        {% if company_data.phone and company_data.phone_repr %}
                         <li>
                             <i class="bx bxs-phone-call"></i>
                             <a href="tel:{{ company_data.phone }}">{{ company_data.phone_repr }}</a>
                         </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>

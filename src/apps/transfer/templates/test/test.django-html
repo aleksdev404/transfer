@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-    {% include 'transfer/breadcrumb.django-html' with title='Privacy Policy' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
+    {% include 'transfer/breadcrumb.django-html' with title='Privacy Policy' background_url="/static/img/breadcrumb.jpg" %}
     <div class="container py-5">
         <input id="autoComplete" class="autocomplete-custom">
     </div>

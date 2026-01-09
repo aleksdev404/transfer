@@ -12,7 +12,7 @@
 {% block content %}
 {% get_company_data as company_data %}
 
-{% include 'transfer/breadcrumb.django-html' with title='Contact us' title_detail='GET THE HOTEST PROMOTIONS AND DISCOUNTS' background_url="/static/img/breadcrumb-backgrounds/contact.jpg" %}
+{% include 'transfer/breadcrumb.django-html' with title=_('Contact us') title_detail=_('GET THE HOTEST PROMOTIONS AND DISCOUNTS') background_url="/static/img/breadcrumb-backgrounds/contact.jpg" %}
 
 <section class="contact-info-area bg-color pt-100 pb-70">
     <div class="container">
@@ -36,7 +36,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="single-contact-info">
                     <i class="bx bx-location-plus"></i>
-                    <h3>{% trans "Antalya" %}</h3>
+                    <h3>{% trans "İstanbul" %}</h3>
                     <a href="{{ company_data.address_link }}">{{ company_data.address }}</a>
                 </div>
             </div>
@@ -101,9 +101,7 @@
                 <div class="col-12">
                     <div class="form-group checkboxs">
                         <p>
-                            {% block transblock %}
-                                You are accepting <a href="#">Terms & Conditions</a> And <a href="#">Privacy Policy</a> by filling this form.
-                            {% endblock %}
+                            {% blocktrans %}You are accepting Privacy Policy by filling this form.{% endblocktrans %}
                         </p>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-17 19:59+0300\n"
+"POT-Creation-Date: 2026-01-09 15:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,248 +16,312 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\apps\transfer\models.py:40 .\apps\transfer\models.py:230
+#: apps/transfer/models.py:42 apps/transfer/models.py:243
 msgid "E-mail"
 msgstr "Почта"
 
-#: .\apps\transfer\models.py:41
+#: apps/transfer/models.py:43
 msgid "Phone number"
 msgstr "Номер телефона"
 
-#: .\apps\transfer\models.py:43 .\apps\transfer\models.py:80
+#: apps/transfer/models.py:45 apps/transfer/models.py:82
 msgid "Passengers"
 msgstr "Кол-во пассажиров"
 
-#: .\apps\transfer\models.py:44 .\apps\transfer\models.py:81
+#: apps/transfer/models.py:46 apps/transfer/models.py:83
 msgid "Baggage (kg)"
 msgstr "Багаж (кг)"
 
-#: .\apps\transfer\models.py:46
+#: apps/transfer/models.py:48
 msgid "From where?"
 msgstr "Откуда?"
 
-#: .\apps\transfer\models.py:47
+#: apps/transfer/models.py:49
 msgid "To where?"
 msgstr "Куда?"
 
-#: .\apps\transfer\models.py:49 .\apps\transfer\models.py:77
+#: apps/transfer/models.py:51 apps/transfer/models.py:79
 msgid "Meeting date"
 msgstr "Дата встречи"
 
-#: .\apps\transfer\models.py:50 .\apps\transfer\models.py:78
+#: apps/transfer/models.py:52 apps/transfer/models.py:80
 msgid "Meeting time"
 msgstr "Время встречи"
 
-#: .\apps\transfer\models.py:74 .\apps\transfer\models.py:75
+#: apps/transfer/models.py:76 apps/transfer/models.py:77
 msgid "Flight code (IATA)"
 msgstr "Код полёта (IATA)"
 
-#: .\apps\transfer\models.py:83
+#: apps/transfer/models.py:85
 msgid "Name"
 msgstr "Имя"
 
-#: .\apps\transfer\models.py:84
+#: apps/transfer/models.py:86
 msgid "Surname"
 msgstr "Фамилия"
 
-#: .\apps\transfer\models.py:85
+#: apps/transfer/models.py:87
 msgid "Description"
 msgstr "Описание"
 
-#: .\apps\transfer\models.py:90
+#: apps/transfer/models.py:92
 msgid "Rating"
 msgstr "Оценка"
 
-#: .\apps\transfer\models.py:229
+#: apps/transfer/models.py:242
 msgid "Name surname"
 msgstr "Имя фамилия"
 
-#: .\apps\transfer\models.py:231
+#: apps/transfer/models.py:244
 msgid "Your message"
 msgstr "Ваше сообщение"
 
-#: .\apps\transfer\templates\official\distance-sales-agreement.django-html:7
-#: .\apps\transfer\templates\origin\footer.django-html:67
+#: apps/transfer/templates/official/distance-sales-agreement.django-html:7
+#: apps/transfer/templates/origin/footer.django-html:66
 msgid "Distance Sales Agreement"
 msgstr "Правила и Условия"
 
-#: .\apps\transfer\templates\official\privacy-policy.django-html:7
-#: .\apps\transfer\templates\origin\footer.django-html:64
+#: apps/transfer/templates/official/privacy-policy.django-html:7
+#: apps/transfer/templates/origin/footer.django-html:63
+#: apps/transfer/templates/test/test.django-html:7
 msgid "Privacy Policy"
 msgstr "Политика конфиденциальности"
 
-#: .\apps\transfer\templates\origin\footer.django-html:15
-#: .\apps\transfer\templates\transfer\home.django-html:21
-msgid "Luxury, Comfortable And Safe Transfer"
-msgstr "Удобный, комфортный и безопасный трансфер"
-
-#: .\apps\transfer\templates\origin\footer.django-html:30
+#: apps/transfer/templates/origin/footer.django-html:29
 msgid "Excursion itineraries"
 msgstr "Экскурсионные программы"
 
-#: .\apps\transfer\templates\origin\footer.django-html:43
+#: apps/transfer/templates/origin/footer.django-html:42
 msgid "Pages"
 msgstr "Страницы"
 
-#: .\apps\transfer\templates\origin\footer.django-html:46
-#: .\apps\transfer\templates\origin\header.django-html:77
+#: apps/transfer/templates/origin/footer.django-html:45
+#: apps/transfer/templates/origin/header.django-html:82
 msgid "Home page"
 msgstr "Главная"
 
-#: .\apps\transfer\templates\origin\footer.django-html:49
-#: .\apps\transfer\templates\origin\header.django-html:83
-#: .\apps\transfer\templates\transfer\about.django-html:8
-#: .\apps\transfer\templates\transfer\about.django-html:31
+#: apps/transfer/templates/origin/footer.django-html:48
+#: apps/transfer/templates/origin/header.django-html:88
+#: apps/transfer/templates/transfer/about.django-html:8
+#: apps/transfer/templates/transfer/about.django-html:12
+#: apps/transfer/templates/transfer/about.django-html:31
 msgid "About us"
 msgstr "О нас"
 
-#: .\apps\transfer\templates\origin\footer.django-html:52
-#: .\apps\transfer\templates\origin\header.django-html:80
-#: .\apps\transfer\templates\transfer\contact.django-html:9
+#: apps/transfer/templates/origin/footer.django-html:51
+#: apps/transfer/templates/origin/header.django-html:85
+#: apps/transfer/templates/transfer/contact.django-html:9
+#: apps/transfer/templates/transfer/contact.django-html:15
 msgid "Contact us"
 msgstr "Связаться"
 
-#: .\apps\transfer\templates\origin\footer.django-html:55
+#: apps/transfer/templates/origin/footer.django-html:54
 msgid "Get transfer"
 msgstr "Заказать трансфер"
 
-#: .\apps\transfer\templates\origin\footer.django-html:58
+#: apps/transfer/templates/origin/footer.django-html:57
+#: apps/transfer/templates/transfer/excursions/list.django-html:11
 msgid "Get Excursion"
 msgstr "Туры"
 
-#: .\apps\transfer\templates\origin\footer.django-html:61
-#: .\apps\transfer\templates\origin\header.django-html:89
-#: .\apps\transfer\templates\transfer\faq-list.django-html:17
+#: apps/transfer/templates/origin/footer.django-html:60
+#: apps/transfer/templates/origin/header.django-html:94
 msgid "FAQ"
 msgstr "FAQ"
 
-#: .\apps\transfer\templates\origin\footer.django-html:74
+#: apps/transfer/templates/origin/footer.django-html:73
 msgid "Contact data"
 msgstr "Связаться"
 
-#: .\apps\transfer\templates\origin\header.django-html:86
-msgid "Get tour"
+#: apps/transfer/templates/origin/header.django-html:91
+#, fuzzy
+#| msgid "Get Excursion"
+msgid "Get excursion"
 msgstr "Туры"
 
-#: .\apps\transfer\templates\origin\header.django-html:95
-#: .\apps\transfer\templates\origin\header.django-html:117
+#: apps/transfer/templates/origin/header.django-html:100
+#: apps/transfer/templates/origin/header.django-html:122
 msgid "BUY TRANSFER"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: .\apps\transfer\templates\transfer\about.django-html:23
+#: apps/transfer/templates/transfer/about.django-html:12
+msgid "OUR VISION"
+msgstr "НАША МИССИЯ"
+
+#: apps/transfer/templates/transfer/about.django-html:23
 msgid "20 years in tourism industry"
 msgstr "В секторе уже как 20 лет"
 
-#: .\apps\transfer\templates\transfer\about.django-html:33
+#: apps/transfer/templates/transfer/about.django-html:33
 msgid "We are a tour operator providing services in transfer and tour areas."
 msgstr "Мы тур оператор предоставляющий услуги в сфере туризма"
 
-#: .\apps\transfer\templates\transfer\about.django-html:36
+#: apps/transfer/templates/transfer/about.django-html:36
 msgid ""
-"As Şahturizm LTD, we have been serving you with our professional staff since "
-"2004. We take you from Antalya airport to Lara, Belek, Side, Alanya, Kemer "
-"and all other cities and holiday resorts, as well as from the points you "
-"want and specify, and take you safely to the place you want to go, moreover, "
-"in the comfort of your home."
-msgstr ""
-"Будучи одним из многих тур операроторов мы бережём свою репутацию и "
-"клиентов, делая всё возможное что бы удержаться в столь нестабильном "
-"секторе. Наши направления включают в себя Аланию, Белек, Сиде, Кемер а так "
-"же другие менее популярные направления. Доверьте нам свой отдых и "
-"наслаждайтесь отдыхом на побережье средиземного моря. Мы доставим вас в "
-"любую точку региона максимально доступно и быстро."
+"Island Travel provides professional transportation services, ensuring safe "
+"and comfortable transfers from airports and any location you specify to your "
+"desired destination."
+msgstr "Island Travel предоставляет профессиональные транспортные услуги, обеспечивая безопасные и комфортные поездки из аэропортов и любых указанных вами точек к нужному вам месту назначения."
 
-#: .\apps\transfer\templates\transfer\about.django-html:41
+#: apps/transfer/templates/transfer/about.django-html:41
 msgid "24/7 support"
 msgstr "Поддержка 24/7"
 
-#: .\apps\transfer\templates\transfer\about.django-html:45
+#: apps/transfer/templates/transfer/about.django-html:45
 msgid "Same day registration options"
 msgstr "Выезжаем сразу после регистрации"
 
-#: .\apps\transfer\templates\transfer\about.django-html:49
+#: apps/transfer/templates/transfer/about.django-html:49
 msgid "Wide range of prices"
 msgstr "Широкий выбор цен и услуг"
 
-#: .\apps\transfer\templates\transfer\about.django-html:68
-#: .\apps\transfer\templates\transfer\home.django-html:195
+#: apps/transfer/templates/transfer/about.django-html:68
+#: apps/transfer/templates/transfer/home.django-html:196
 msgid "Excursion programs"
 msgstr "Тур программы"
 
-#: .\apps\transfer\templates\transfer\about.django-html:78
-#: .\apps\transfer\templates\transfer\home.django-html:205
+#: apps/transfer/templates/transfer/about.django-html:78
+#: apps/transfer/templates/transfer/home.django-html:206
 msgid "Language support"
 msgstr "Языков поддерживается"
 
-#: .\apps\transfer\templates\transfer\about.django-html:88
-#: .\apps\transfer\templates\transfer\home.django-html:215
+#: apps/transfer/templates/transfer/about.django-html:88
+#: apps/transfer/templates/transfer/home.django-html:216
 msgid "Happy customer"
 msgstr "Довольных клиентов"
 
-#: .\apps\transfer\templates\transfer\about.django-html:98
-#: .\apps\transfer\templates\transfer\home.django-html:225
+#: apps/transfer/templates/transfer/about.django-html:98
+#: apps/transfer/templates/transfer/home.django-html:226
 msgid "Completed transfers"
 msgstr "Законченных трансферов"
 
-#: .\apps\transfer\templates\transfer\breadcrumb.django-html:10
-#: .\apps\transfer\templates\transfer\home.django-html:8
+#: apps/transfer/templates/transfer/breadcrumb.django-html:10
+#: apps/transfer/templates/transfer/home.django-html:9
 msgid "Home Page"
 msgstr "Главная"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:23
+#: apps/transfer/templates/transfer/contact.django-html:15
+msgid "GET THE HOTEST PROMOTIONS AND DISCOUNTS"
+msgstr "ПОЛУЧАЙТЕ ИНФОРМАЦИЯ ОБ АКЦИЯХ И СКИДКАХ"
+
+#: apps/transfer/templates/transfer/contact.django-html:23
 msgid "Email Us:"
 msgstr "Напишите нам по почте:"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:32
+#: apps/transfer/templates/transfer/contact.django-html:32
 msgid "Call Us:"
 msgstr "Позвоните нам:"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:39
-msgid "Antalya"
-msgstr "Анталия"
+#: apps/transfer/templates/transfer/contact.django-html:39
+msgid "İstanbul"
+msgstr "Стамбул"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:46
+#: apps/transfer/templates/transfer/contact.django-html:46
 msgid "Live Chat"
 msgstr "Оперативная поддержка 24/7"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:47
+#: apps/transfer/templates/transfer/contact.django-html:47
 msgid "Live Chat All The Time With Our Company 24/7"
 msgstr ""
 "Выходите с нами на связь и обсуждайте детали заказов в удобное вам время"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:58
+#: apps/transfer/templates/transfer/contact.django-html:58
 msgid "Drop Us A Message For Any Query"
 msgstr ""
 "Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
 "вопросы"
 
-#: .\apps\transfer\templates\transfer\contact.django-html:112
+#: apps/transfer/templates/transfer/contact.django-html:104
+#: apps/transfer/templates/transfer/faq-list.django-html:95
+msgid "You are accepting Privacy Policy by filling this form."
+msgstr "Заполняя эту форму, вы соглашаетесь с Политикой конфиденциальности."
+
+#: apps/transfer/templates/transfer/contact.django-html:110
 msgid "Send Message"
 msgstr "Отправить сообщение"
 
-#: .\apps\transfer\templates\transfer\faq-list.django-html:8
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:28
+msgid "I WANT THIS TOUR"
+msgstr "ХОЧУ ЭТОТ ТУР"
+
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:36
+msgid "Category"
+msgstr "Категория"
+
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:46
+msgid "Excursion duration"
+msgstr "Длительность тура"
+
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:50
+msgid "Start-end clocks"
+msgstr "Время начала-конца"
+
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:69
+msgid "Working days"
+msgstr "Дни работы"
+
+#: apps/transfer/templates/transfer/excursions/detail/index.django-html:82
+msgid "Tags"
+msgstr "Теги"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:7
+msgid "Excursion List"
+msgstr "Список экскурсий"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:11
+#, fuzzy
+#| msgid "BUY TOUR ONLINE"
+msgid "BUY EXCURSION ONLINE"
+msgstr "ЗАКАЖИТЕ ЭКСКУРСИЮ ОНЛАЙН"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:28
+#: apps/transfer/templates/transfer/home.django-html:177
+msgid "READ MORE"
+msgstr "УЗНАТЬ БОЛЬШЕ"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:40
+msgid "PREVIOUS"
+msgstr "НАЗАД"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:45
+msgid "Page"
+msgstr "Страница"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:50
+msgid "NEXT"
+msgstr "СЛЕДУЮЩАЯ"
+
+#: apps/transfer/templates/transfer/faq-list.django-html:8
 msgid "Frequently asked questions"
 msgstr "Часто задаваемые вопросы"
 
-#: .\apps\transfer\templates\transfer\faq-list.django-html:18
+#: apps/transfer/templates/transfer/faq-list.django-html:12
+msgid "FREQUENTLY ASKED QUESTIONS"
+msgstr "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ"
+
+#: apps/transfer/templates/transfer/faq-list.django-html:17
 msgid "Get Every Single Answer"
 msgstr "Получите ответы на вопросы здесь"
 
-#: .\apps\transfer\templates\transfer\faq-list.django-html:50
+#: apps/transfer/templates/transfer/faq-list.django-html:49
 msgid "Drop Us A Message For Any Question"
 msgstr ""
 "Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
 "вопросы"
 
-#: .\apps\transfer\templates\transfer\faq-list.django-html:104
+#: apps/transfer/templates/transfer/faq-list.django-html:101
 msgid "Send question"
 msgstr "Отправить вопрос"
 
-#: .\apps\transfer\templates\transfer\home.django-html:23
+#: apps/transfer/templates/transfer/home.django-html:26
+msgid "Luxury, Comfortable And Safe Transfer"
+msgstr "Удобный, комфортный и безопасный трансфер"
+
+#: apps/transfer/templates/transfer/home.django-html:28
 msgid ""
 "You can take advantage of our airport transfer service to catch your plane "
 "on time or to go to your destination comfortably after many tiring journeys."
@@ -266,19 +330,19 @@ msgstr ""
 "что бы добраться в место назначения, мы всё сделаем за вас а вам остаётся "
 "только довериться нашему опыту."
 
-#: .\apps\transfer\templates\transfer\home.django-html:27
+#: apps/transfer/templates/transfer/home.django-html:32
 msgid "GET TRANSFER"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: .\apps\transfer\templates\transfer\home.django-html:30
+#: apps/transfer/templates/transfer/home.django-html:35
 msgid "CONTACT US"
 msgstr "СВЯЗАТЬСЯ"
 
-#: .\apps\transfer\templates\transfer\home.django-html:40
+#: apps/transfer/templates/transfer/home.django-html:45
 msgid "GET TRANSFER PRICE"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: .\apps\transfer\templates\transfer\home.django-html:53
+#: apps/transfer/templates/transfer/home.django-html:58
 msgid ""
 "Please fill out the transfer form below so that we can offer you a price "
 "quote."
@@ -286,7 +350,7 @@ msgstr ""
 "Пожалуйста заполните форму для того что бы мы предложили вам оптимальную "
 "стоимость пакета."
 
-#: .\apps\transfer\templates\transfer\home.django-html:59
+#: apps/transfer/templates/transfer/home.django-html:64
 msgid ""
 "Our support team will contact you soon and offer you a price quote. Thank "
 "you for your attention. You can reach us 24/7 via the support line."
@@ -294,53 +358,35 @@ msgstr ""
 "Наша служба поддержи свяжется с вами в ближайшее время что бы обсудить "
 "детали заказа. Вы так же можете связаться с нами 24/7 через службу поддержки."
 
-#: .\apps\transfer\templates\transfer\home.django-html:157
-msgid "TOUR ITINERARIES"
-msgstr "ЭКСКУРСИОННЫЕ ПРОГРАММЫ"
+#: apps/transfer/templates/transfer/home.django-html:150
+msgid "SUBMIT"
+msgstr "ОТПРАВИТЬ"
 
-#: .\apps\transfer\templates\transfer\home.django-html:158
-msgid "BEST ALANYA TOURS, TRIPS AND ACTIVITIES, AT THE BEST PRICES"
-msgstr "ЛУЧШИЕ ЭКСКУРСИИ ПО АЛАНИИ, МЕРОПРИЯТИЯ И ТУРЫ, ПО ВЫГОДНЫМ ЦЕНАМ"
-
-#: .\apps\transfer\templates\transfer\home.django-html:160
-msgid ""
-"Daily tours, excursions, activities, package tour programs, accommodation "
-"tours, private tour programs for groups and individuals in Alanya, Side, "
-"Antalya, Pamukkale and Cappadocia regions."
-msgstr ""
-"Туры с ночёвкой, экскурсии, мероприятия по регионам Сиде, Белек, Алания, "
-"Кемер."
-
-#: .\apps\transfer\templates\transfer\home.django-html:176
-#: .\apps\transfer\templates\transfer\tour-list.django-html:35
-msgid "READ MORE"
-msgstr "УЗНАТЬ БОЛЬШЕ"
-
-#: .\apps\transfer\templates\transfer\order.django-html:8
+#: apps/transfer/templates/transfer/order.django-html:9
 msgid "GET TRANSFER ONLINE"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: .\apps\transfer\templates\transfer\order.django-html:22
+#: apps/transfer/templates/transfer/order.django-html:25
 msgid "Custom package"
 msgstr "Мануальный расчёт"
 
-#: .\apps\transfer\templates\transfer\order.django-html:27
+#: apps/transfer/templates/transfer/order.django-html:30
 msgid "Ready packages"
 msgstr "Готовые пакеты"
 
-#: .\apps\transfer\templates\transfer\order.django-html:45
+#: apps/transfer/templates/transfer/order.django-html:48
 msgid "Personal data"
 msgstr "Личная информация"
 
-#: .\apps\transfer\templates\transfer\order.django-html:93
+#: apps/transfer/templates/transfer/order.django-html:95
 msgid "Start location"
 msgstr "Начальная локация"
 
-#: .\apps\transfer\templates\transfer\order.django-html:112
+#: apps/transfer/templates/transfer/order.django-html:141
 msgid "Destination location"
 msgstr "Конечная локация"
 
-#: .\apps\transfer\templates\transfer\order.django-html:124
+#: apps/transfer/templates/transfer/order.django-html:180
 msgid ""
 "If you wish, you can create both a round trip and a return transfer within "
 "the scope of the same request, for this click the blue arrow button above."
@@ -348,89 +394,80 @@ msgstr ""
 "Если нужно, вы можете сразу заказать обратный трансфер с точки назначения в "
 "рамках данной формы, нажав на синюю стрелочную кнопку."
 
-#: .\apps\transfer\templates\transfer\order.django-html:132
+#: apps/transfer/templates/transfer/order.django-html:184
 msgid "Transfer data"
 msgstr "Информация о трансфере"
 
-#: .\apps\transfer\templates\transfer\order.django-html:188
+#: apps/transfer/templates/transfer/order.django-html:239
 msgid "Reverse (back) transfer data"
 msgstr "Информация об обратном трансфере"
 
-#: .\apps\transfer\templates\transfer\order.django-html:245
+#: apps/transfer/templates/transfer/order.django-html:294
 msgid "Your note"
 msgstr "Ваша заметка"
 
-#: .\apps\transfer\templates\transfer\order.django-html:257
+#: apps/transfer/templates/transfer/order.django-html:306
 msgid "SEND REQUEST FOR FREE"
 msgstr "РАСЧИТАТЬ ЦЕНУ БЕСПЛАТНО"
 
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:28
-msgid "I WANT THIS TOUR"
-msgstr "ХОЧУ ЭТОТ ТУР"
-
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:36
-msgid "Category"
-msgstr "Категория"
-
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:46
-msgid "Excursion duration"
-msgstr "Длительность тура"
-
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:50
-msgid "Start-end clocks"
-msgstr "Время начала-конца"
-
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:69
-msgid "Working days"
-msgstr "Дни работы"
-
-#: .\apps\transfer\templates\transfer\tour-detail.django-html:82
-msgid "Tags"
-msgstr "Теги"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:7
-msgid "Excursion List"
-msgstr "Список экскурсий"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:16
-msgid "Excursion list"
-msgstr "Список экскурсий"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:17
-msgid "BEST ANTALIA TOURS, ACTIVITIES FOR BEST PRICES"
-msgstr "ЛУЧШИЕ ЭКСКУРСИИ ПО АЛАНИИ, МЕРОПРИЯТИЯ И ТУРЫ, ПО ВЫГОДНЫМ ЦЕНАМ"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:19
-msgid "Alania, Side, Antalia, Pamukkale, Cappadocia tours and more"
-msgstr "Анталия, Сиде, Алания, Белек, Каппадокия, Памуккале и многое другое"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:47
-msgid "PREVIOUS"
-msgstr "НАЗАД"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:52
-msgid "Page"
-msgstr "Страница"
-
-#: .\apps\transfer\templates\transfer\tour-list.django-html:57
-msgid "NEXT"
-msgstr "СЛЕДУЮЩАЯ"
-
-#: .\apps\transfer\views.py:11
+#: apps/transfer/views.py:11
 msgid "Your request sent succesfully!"
 msgstr "Заявка успешно отправлена!"
 
-#: .\apps\transfer\views.py:59
+#: apps/transfer/views.py:59
 msgid "Your request created successfully!"
 msgstr "Заявка успешно создана!"
 
-#: .\apps\transfer\views.py:85
+#: apps/transfer/views.py:85
 msgid "Form sent successfully!"
 msgstr "Форма отправлена успешно!"
 
-#: .\apps\transfer\views.py:103
+#: apps/transfer/views.py:103
 msgid "Your message sent successfully!"
 msgstr "Ваше сообщение успешно отправлено!"
+
+#~ msgid ""
+#~ "As ISLAND TRAVEL, we have been serving you with our professional staff "
+#~ "since 2004. We take you from Antalya airport to Lara, Belek, Side, "
+#~ "Alanya, Kemer and all other cities and holiday resorts, as well as from "
+#~ "the points you want and specify, and take you safely to the place you "
+#~ "want to go, moreover, in the comfort of your home."
+#~ msgstr ""
+#~ "Будучи одним из многих тур операроторов мы бережём свою репутацию и "
+#~ "клиентов, делая всё возможное что бы удержаться в столь нестабильном "
+#~ "секторе. Наши направления включают в себя Аланию, Белек, Сиде, Кемер а "
+#~ "так же другие менее популярные направления. Доверьте нам свой отдых и "
+#~ "наслаждайтесь отдыхом на побережье средиземного моря. Мы доставим вас в "
+#~ "любую точку региона максимально доступно и быстро."
+
+#~ msgid "Get tour"
+#~ msgstr "Туры"
+
+#~ msgid "Antalya"
+#~ msgstr "Анталия"
+
+#~ msgid "TOUR ITINERARIES"
+#~ msgstr "ЭКСКУРСИОННЫЕ ПРОГРАММЫ"
+
+#~ msgid "BEST ALANYA TOURS, TRIPS AND ACTIVITIES, AT THE BEST PRICES"
+#~ msgstr "ЛУЧШИЕ ЭКСКУРСИИ ПО АЛАНИИ, МЕРОПРИЯТИЯ И ТУРЫ, ПО ВЫГОДНЫМ ЦЕНАМ"
+
+#~ msgid ""
+#~ "Daily tours, excursions, activities, package tour programs, accommodation "
+#~ "tours, private tour programs for groups and individuals in Alanya, Side, "
+#~ "Antalya, Pamukkale and Cappadocia regions."
+#~ msgstr ""
+#~ "Туры с ночёвкой, экскурсии, мероприятия по регионам Сиде, Белек, Алания, "
+#~ "Кемер."
+
+#~ msgid "Excursion list"
+#~ msgstr "Список экскурсий"
+
+#~ msgid "BEST ANTALIA TOURS, ACTIVITIES FOR BEST PRICES"
+#~ msgstr "ЛУЧШИЕ ЭКСКУРСИИ ПО АЛАНИИ, МЕРОПРИЯТИЯ И ТУРЫ, ПО ВЫГОДНЫМ ЦЕНАМ"
+
+#~ msgid "Alania, Side, Antalia, Pamukkale, Cappadocia tours and more"
+#~ msgstr "Анталия, Сиде, Алания, Белек, Каппадокия, Памуккале и многое другое"
 
 #~ msgid "Terms of use"
 #~ msgstr "Условия пользования & оферта"
@@ -446,12 +483,3 @@ msgstr "Ваше сообщение успешно отправлено!"
 #~| msgid "Ana sayfa"
 #~ msgid "Ana Sayfa"
 #~ msgstr "Главная"
-
-#~ msgid "OUR VISION"
-#~ msgstr "НАША МИССИЯ"
-
-#~ msgid "GET THE HOTEST PROMOTIONS AND DISCOUNTS"
-#~ msgstr "ПОЛУЧАЙТЕ ИНФОРМАЦИЯ ОБ АКЦИЯХ И СКИДКАХ"
-
-#~ msgid "BUY TOUR ONLINE"
-#~ msgstr "ЗАКАЖИТЕ ЭКСКУРСИЮ ОНЛАЙН"

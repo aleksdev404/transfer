@@ -9,12 +9,11 @@
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='FAQ' title_detail='FREQUENTLY ASKED QUESTIONS' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
+{% include 'transfer/breadcrumb.django-html' with title='FAQ' title_detail=_('FREQUENTLY ASKED QUESTIONS') background_url="/static/img/breadcrumb.jpg" %}
 
 <section class="faq-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <span class="pumpkin-color">{% trans "FAQ" %}</span>
             <h2>{% trans "Get Every Single Answer" %}</h2>
         </div>
         <div class="row">
@@ -93,9 +92,7 @@
                 <div class="col-12">
                     <div class="form-group checkboxs">
                         <p>
-                            {% block blocktrans %}
-                                You are accepting <a href="#">Terms & Conditions</a> And <a href="#">Privacy Policy</a> by filling this form.
-                            {% endblock %}
+                            {% blocktrans %}You are accepting Privacy Policy by filling this form.{% endblocktrans %}
                         </p>
                     </div>
                 </div>

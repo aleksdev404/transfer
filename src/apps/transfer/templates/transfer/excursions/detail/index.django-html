@@ -24,7 +24,7 @@
                     <h3>{{ object.excerpt }}</h3>
                     <p>{{ object.description | markdown }}</p>
                     <br>
-                    <a href='https://api.whatsapp.com/send?phone=905060335639&text=I want "{{ object.name }} ({{ object.id }})" tour' class="btn-lg btn-success">
+                    <a href='https://api.whatsapp.com/send?phone=905319476645&text=I want "{{ object.name }} ({{ object.id }})" tour' class="btn-lg btn-success">
                         {% trans "I WANT THIS TOUR" %}
                     </a>
                     <br>

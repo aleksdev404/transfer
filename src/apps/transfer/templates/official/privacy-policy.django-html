@@ -8,33 +8,59 @@
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='Privacy Policy' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
+{% include 'transfer/breadcrumb.django-html' with title='Privacy Policy' background_url="/static/img/breadcrumb.jpg" %}
     <div class="container py-5">
         <p>
             <b>
-                This statement contains Şah Excursions Transfer's privacy policy.
+                This statement contains Island Travel's privacy policy.
             </b>
         </p>
+        
         <p>
-            By visiting the Şah Excursions transfer website, you are deemed to have accepted the following terms and conditions.
+            By visiting the Island Travel website, you are deemed to have accepted the following terms and conditions.
         </p>
+        
         <p>
-            Şah Excursions requests some personal information from you during and after the transfer purchase process. Protecting your personal information and maintaining your privacy is our first priority as the Şah Excursions transfer team. For this reason, the information you provide will not be used in any context other than the rules and purposes specified in the Membership Agreement, and will not be shared with third parties.
+            Island Travel requests some personal information from you during and after the transfer purchase process.
+            Protecting your personal information and maintaining your privacy is our first priority as the Island Travel team.
+            For this reason, the information you provide will not be used in any context other than the rules and purposes
+            specified in the Membership Agreement, and will not be shared with third parties.
         </p>
+        
         <p>
-            Şah Excursions transfer detects and uses the IP address of the users when necessary, in order to detect system-related problems and to resolve these problems as quickly as possible. IP addresses may also be used to identify users in a general way and to gather comprehensive demographic Information.
+            Island Travel detects and uses the IP address of the users when necessary, in order to detect system-related problems
+            and to resolve these problems as quickly as possible. IP addresses may also be used to identify users in a general way
+            and to gather comprehensive demographic information.
         </p>
+        
         <p>
-            Transfer reservation forms on our site request your contact information (name, surname, e-mail address, telephone numbers and postal address) and personal contact information. Our purchase forms also require financial information (credit card numbers) to be provided. Your Personal Information mentioned above is used to receive your orders, to offer our products and services, to make your payments, to contact you for marketing purposes about your orders, products and services, and to enable third parties to perform transfer, transportation, logistics and other similar functions on our behalf.
+            Transfer reservation forms on our site request your contact information (name, surname, e-mail address, telephone numbers
+            and postal address) and personal contact information. Our purchase forms also require financial information (credit card numbers)
+            to be provided. Your personal information mentioned above is used to receive your orders, to offer our products and services,
+            to make your payments, to contact you for marketing purposes about your orders, products and services, and to enable third parties
+            to perform transfer, transportation, logistics and other similar functions on our behalf.
         </p>
+        
         <p>
-            Şah Excursions transfer is committed to keeping personal information strictly private and confidential, to consider it a confidentiality obligation, to ensure and maintain confidentiality, to take the necessary precautions and to take the necessary care to prevent all or any part of the confidential information from entering the public domain or unauthorized use or disclosure to a third party. Although Şah Excursions transfer takes the necessary information security measures, Şah Excursions transfer will not have any responsibility in case confidential information is damaged or in the hands of third parties as a result of attacks on the Şah Excursions transfer site and the system.
+            Island Travel is committed to keeping personal information strictly private and confidential, to consider it a confidentiality
+            obligation, to ensure and maintain confidentiality, to take the necessary precautions and to take the necessary care to prevent all
+            or any part of the confidential information from entering the public domain or unauthorized use or disclosure to a third party.
+            Although Island Travel takes the necessary information security measures, Island Travel will not have any responsibility in case
+            confidential information is damaged or in the hands of third parties as a result of attacks on the Island Travel site and the system.
         </p>
+        
         <p>
-            All your credit card and personal information is 128 mbit encrypted with the SSL Secure system, which is the internet security standard. In this way, your information is prevented from being captured by unwanted persons or institutions in any way during their circulation on the internet. For any questions or suggestions regarding our privacy policy, you can send us an e-mail from the contact section of our website.
+            All your credit card and personal information is 128 mbit encrypted with the SSL Secure system, which is the internet security
+            standard. In this way, your information is prevented from being captured by unwanted persons or institutions in any way during
+            their circulation on the internet. For any questions or suggestions regarding our privacy policy, you can send us an e-mail from
+            the contact section of our website.
         </p>
+        
         <p>
-            Şah Excursions transfer can obtain information about the users and the use of the Şah Excursions transfer site by using a technical communication file (Cookie-Cookie). However, if users wish, they can change the browser settings so that the technical communication file does not arrive or a warning is given when the technical communication file is sent.
+            Island Travel can obtain information about the users and the use of the Island Travel site by using a technical communication file
+            (Cookie). However, if users wish, they can change the browser settings so that the technical communication file does not arrive or
+            a warning is given when the technical communication file is sent.
         </p>
+        
     </div>
 {% endblock %}

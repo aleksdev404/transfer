@@ -9,14 +9,14 @@
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='About us' title_detail='OUR VISION' background_url='/static/img/breadcrumb-backgrounds/about.png' %}
+{% include 'transfer/breadcrumb.django-html' with title=_('About us') title_detail=_('OUR VISION') background_url='/static/img/breadcrumb.jpg' %}
 
 <section class="about-us-area pt-100 pb-70">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="about-img">
-                    <img src="{% static 'img/breadcrumb-backgrounds/about.jpg' %}" alt="Image">
+                    <img src="{% static 'img/breadcrumb.jpg' %}" alt="Image">
                     <div class="experience">
                         <div class="">
                             <h2>
@@ -33,7 +33,7 @@
                         {% trans "We are a tour operator providing services in transfer and tour areas." %}
                     </h2>
                     <p>
-                        {% trans "As Şahturizm LTD, we have been serving you with our professional staff since 2004. We take you from Antalya airport to Lara, Belek, Side, Alanya, Kemer and all other cities and holiday resorts, as well as from the points you want and specify, and take you safely to the place you want to go, moreover, in the comfort of your home." %}
+                        {% trans "Island Travel provides professional transportation services, ensuring safe and comfortable transfers from airports and any location you specify to your desired destination." %}
                     </p>
                     <ul>
                         <li>

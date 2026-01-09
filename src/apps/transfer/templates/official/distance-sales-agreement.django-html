@@ -8,137 +8,200 @@
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='Distance Sales Agreement' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}    
+{% include 'transfer/breadcrumb.django-html' with title='Distance Sales Agreement' background_url="/static/img/breadcrumb.jpg" %}    
     <div class="container py-5">
-
         <p>
-            sahturizm.com.tr is the airport transfer and transportation sales portal of "ŞAH TOURS TRANSFER TURİZM TAŞIMACILIK TİCARET LİMİTED ŞİRKETİ" is registered with Antalya Kurumlar tax office.
+            islandtravel.com.tr is the airport transfer and transportation sales portal.
         </p>
+        
         <p>
-            Şah Excursions provides service with support@sahturizm.com.tr e-mail address.
+            Island Travel provides service with islandtravel@gmail.com e-mail address.
         </p>
+        
         <p>
             Every customer who is a member of our website and makes purchases is deemed to have read and accepted all the articles of our sales contract below, without any further notice, as a buyer!
         </p>
+        
         <p>
-            Şah Excursions reserves the right to change any conditions and information available on the site and site extensions, including the terms of the contract, without any prior notice.
+            Island Travel reserves the right to change any conditions and information available on the site and site extensions, including the terms of the contract, without any prior notice.
         </p>
+        
         <p>
             If you feel any lack of understanding of the terms of the contract, please contact the customer service department,
         </p>
-        <h5>
-            Using language
-        </h5>
+        
+        <h5>Using language</h5>
+        
         <p>
-            sahturizm.com.tr website provides maximum level of service in Turkish, English, German and Russian languages, Turkish language will be the basis for disputes and misunderstandings that may occur during this service process
+            islandtravel.com.tr website provides maximum level of service in Turkish, English, German and Russian languages,
+            Turkish language will be the basis for disputes and misunderstandings that may occur during this service process
         </p>
-        <h5>
-            Service
-        </h5>
+        
+        <h5>Service</h5>
+        
         <ol type="a">
             <li>
-                sahturizm.com.tr is an intermediary between the seller and the buyer, and is an intermediary between the parties that purchase and provide the service to individual and group customers.
+                islandtravel.com.tr is an intermediary between the seller and the buyer, and is an intermediary between the
+                parties that purchase and provide the service to individual and group customers.
             </li>
             <li>
-                With this sales contract, the buyer who purchases the service is in the position of the seller and the service provider is considered to have accepted responsibilities.
+                With this sales contract, the buyer who purchases the service is in the position of the seller and the
+                service provider is considered to have accepted responsibilities.
             </li>
             <li>
-                With this contract, the buyer who buys the service (the user who buys the service from the internet) is the contract made between the buyer (the company that actually provides the service) and is deemed to be accepted by the parties. Şah Excursions Transer does not accept any responsibility for service disputes arising from this.
+                With this contract, the buyer who buys the service (the user who buys the service from the internet)
+                is the contract made between the buyer (the company that actually provides the service) and is deemed to be
+                accepted by the parties. Island Travel does not accept any responsibility for service disputes arising from this.
             </li>
             <li>
-                The buyer declares that he has read and learned the basic characteristics of the service subject to the contract, the sales price and the payment method and all the preliminary information about the service and gives the necessary confirmation in electronic environment.
+                The buyer declares that he has read and learned the basic characteristics of the service subject to the contract,
+                the sales price and the payment method and all the preliminary information about the service and gives the necessary
+                confirmation in electronic environment.
             </li>
             <li>
-                Şah Excursions Transfer does not accept responsibility for force majeure and weather and natural oppositions that prevent transportation, delays, accidents, injuries, diseases, hospital expenses, additional service and transportation expenses that may occur due to this reason, material and moral losses during the service,
+                Island Travel does not accept responsibility for force majeure and weather and natural oppositions that prevent
+                transportation, delays, accidents, injuries, diseases, hospital expenses, additional service and transportation
+                expenses that may occur due to this reason, material and moral losses during the service,
             </li>
             <li>
-                If the Seller cannot provide the service due to force majeure, the BUYER may use one of the rights to cancel the order regardless of the general cancellation rules or to postpone the service subject to the contract until the blocking situation disappears. In the event that the BUYER cancels the order in accordance with the specified conditions, the amount paid is paid in advance to the account to which the payment was made within 10 days.
+                If the Seller cannot provide the service due to force majeure, the BUYER may use one of the rights to cancel
+                the order regardless of the general cancellation rules or to postpone the service subject to the contract until
+                the blocking situation disappears. In the event that the BUYER cancels the order in accordance with the specified
+                conditions, the amount paid is paid in advance to the account to which the payment was made within 10 days.
             </li>
             <li>
-                sahturizm.com.tr may subcontract the service to provide this service. Under the specified conditions, it can be done by another company or by third parties, institutions or organizations from which it receives services on a contractual basis.
+                islandtravel.com.tr may subcontract the service to provide this service. Under the specified conditions, it can
+                be done by another company or by third parties, institutions or organizations from which it receives services on
+                a contractual basis.
             </li>
         </ol>
-        <h5>
-            Service procurement process
-        </h5>
+        
+        <h5>Service procurement process</h5>
+        
         <ol type="a">
             <li>
-                sahturizm.com.tr sells transportation and transfer services of service providers.
+                islandtravel.com.tr sells transportation and transfer services of service providers.
             </li>
             <li>
-                In the event that the relevant bank or financial institution does not pay the product price to sahturizm.com.tr due to the unfair or unlawful use of the BUYER's credit card by unauthorized persons, which is not due to the BUYER's fault, after the service is provided with this contract, the BUYER has provided the service has been delivered. accepts in advance to make a new payment to sahturizm.com.tr account within Three (3) days.
+                In the event that the relevant bank or financial institution does not pay the product price to
+                islandtravel.com.tr due to the unfair or unlawful use of the BUYER's credit card by unauthorized persons,
+                which is not due to the BUYER's fault, after the service is provided with this contract, the BUYER has provided
+                the service has been delivered. accepts in advance to make a new payment to islandtravel.com.tr account within
+                Three (3) days.
             </li>
         </ol>
+        
         <p>
-            The transfer voucher belonging to sahturizm.com.tr should be shown to the service provider during the service purchase and the information for the return transfer should be checked, corrected if there are any inaccuracies, this responsibility belongs to the Buyer. It is the Buyer's responsibility to specify the return time, how long it will take to arrive, and specify the return meeting time.
+            The transfer voucher belonging to islandtravel.com.tr should be shown to the service provider during the service
+            purchase and the information for the return transfer should be checked, corrected if there are any inaccuracies,
+            this responsibility belongs to the Buyer. It is the Buyer's responsibility to specify the return time, how long it
+            will take to arrive, and specify the return meeting time.
         </p>
-        <h5>
-            We advise all our customers to read this agreement carefully.
-        </h5>
+        
+        <h5>We advise all our customers to read this agreement carefully.</h5>
+        
+        <p>(Responsibility at the time of payment)</p>
+        
         <p>
-            (Responsibility at the time of payment)
+            Island Travel provides the infrastructure for maximum secure shopping with the required SSL security certificates
+            in credit card payments. However, responsibility for illegal transactions such as card theft, extra money withdrawals,
+            virus and pop-up payment methods that may occur in credit card payments. does not accept.
         </p>
+        
+        <h5>Cancel - Changes</h5>
+        
         <p>
-            Şah Excursions Transfer provides the infrastructure for maximum secure shopping with the required SSL security certificates in credit card payments. However, responsibility for illegal transactions such as card theft, extra money withdrawals, virus and pop-up payment methods that may occur in credit card payments. does not accept.
+            All changes and cancellations must be notified to the Island Travel office by e-mail or fax. For cancellations specified
+            48 hours before the first transfer service, the entire transfer fee is paid to the Buyer. 50% of the specified service fee
+            is refunded in the cancellations specified in the 48-24 hours remaining for the first transfer service. For cancellations
+            with less than 24 hours remaining to the transfer and service period, the specified service fee will not be refunded.
+            Please contact our customer service for all changes and cancellations.
         </p>
-        <h5>
-            Cancel - Changes
-        </h5>
+        
         <p>
-            All changes and cancellations must be notified to the Şah Excursions Transfer office by e-mail or fax. For cancellations specified 48 hours before the first transfer service, the entire transfer fee is paid to the Buyer. 50% of the specified service fee is refunded in the cancellations specified in the 48-24 hours remaining for the first transfer service. For cancellations with less than 24 hours remaining to the transfer and service period, the specified service fee will not be refunded. Please contact our customer service for all changes and cancellations.
+            All changes should be notified to islandtravel@gmail.com via e-mail, changes include changes made up to 24 hours before
+            the specified service date and no extra charge is charged for changes made up to 24 hours before date, time, meeting time,
+            pick-up time. An extra fee is charged for changes made in less than a period of time, depending on the availability of the
+            service provider and the feasibility of making changes.
         </p>
-        <p>
-            All changes should be notified to support@sahturizm.com.tr via e-mail, changes include changes made up to 24 hours before the specified service date and no extra charge is charged for changes made up to 24 hours before date, time, meeting time, pick-up time. An extra fee is charged for changes made in less than a period of time, depending on the availability of the service provider and the feasibility of making changes.
-        </p>
-        <h5>
-            Responsibilities
-        </h5>
+        
+        <h5>Responsibilities</h5>
+        
         <ol type="a">
             <li>
-                Şah Excursions Transfer does not accept any responsibility for product defects and is not an interlocutor since Şah Excursions Transfer sells the service provider's product.
+                Island Travel does not accept any responsibility for product defects and is not an interlocutor since Island Travel
+                sells the service provider's product.
             </li>
             <li>
-                Şah Excursions Transfer does not take responsibility for lost property, extra fee payments, delay, accident, injury, missed flight due to force majeure, late meeting, extra hospital expenses, accommodation expenses, extra transportation expenses during the service, the buyer and the service provider and the service provider in this regard. Parties are responsible for insurance. Likewise, Şah Excursions Transfer employees, managers, representatives are not directly responsible in these cases.
+                Island Travel does not take responsibility for lost property, extra fee payments, delay, accident, injury, missed
+                flight due to force majeure, late meeting, extra hospital expenses, accommodation expenses, extra transportation
+                expenses during the service, the buyer and the service provider and the service provider in this regard. Parties are
+                responsible for insurance. Likewise, Island Travel employees, managers, representatives are not directly responsible
+                in these cases.
             </li>
             <li>
-                The buyer is obliged to fill in the transfer and service information themselves, and all these specified meeting time, meeting place, pick-up time (at least 1 hour for domestic flights - at least 2 hours for international flights at the airports), transfer and service time, pick-up place The Buyer is responsible for delays and disputes arising from such matters and cannot claim extra fees, material and moral losses for these situations, all this information is filled by the Buyer and followed by the Buyer who receives the service.
+                The buyer is obliged to fill in the transfer and service information themselves, and all these specified meeting time,
+                meeting place, pick-up time (at least 1 hour for domestic flights - at least 2 hours for international flights at the
+                airports), transfer and service time, pick-up place The Buyer is responsible for delays and disputes arising from such
+                matters and cannot claim extra fees, material and moral losses for these situations, all this information is filled by
+                the Buyer and followed by the Buyer who receives the service.
             </li>
             <li>
-                Service providers care about being present at the meeting time and place, but this is never guaranteed, extra expenses, payments, extra service and transportation expenses will not be accepted.
+                Service providers care about being present at the meeting time and place, but this is never guaranteed, extra expenses,
+                payments, extra service and transportation expenses will not be accepted.
             </li>
             <li>
-                The waiting time at the airport for the specified service is maximum 45 minutes on domestic lines. It is limited to a maximum of 60 minutes on international lines. There is a maximum waiting period of 15 minutes from the specified date and time for return or pick-up from the hotel-address, from this moment the buyer can not claim any rights, no refunds will be made.
+                The waiting time at the airport for the specified service is maximum 45 minutes on domestic lines. It is limited to a
+                maximum of 60 minutes on international lines. There is a maximum waiting period of 15 minutes from the specified date
+                and time for return or pick-up from the hotel-address, from this moment the buyer can not claim any rights, no refunds
+                will be made.
             </li>
             <li>
-                It is the responsibility of the buyer to fill in the transfer information, and the buyer is responsible for the issues such as being late, not getting additional service, missing the airline flight due to this information.
+                It is the responsibility of the buyer to fill in the transfer information, and the buyer is responsible for the issues
+                such as being late, not getting additional service, missing the airline flight due to this information.
             </li>
             <li>
-                Filling in the transfer and service information is by the buyer, and the service provider is not responsible for the hotel and address not being found or being late for this reason. Extra transportation and service expenses that may occur due to this reason are also the responsibility of the Buyer.
+                Filling in the transfer and service information is by the buyer, and the service provider is not responsible for the hotel
+                and address not being found or being late for this reason. Extra transportation and service expenses that may occur due to
+                this reason are also the responsibility of the Buyer.
             </li>
             <li>
-                The service provider provides services in the specified vehicle category, but this is never guaranteed, so the service provider reserves the right to change the vehicle type and category.
+                The service provider provides services in the specified vehicle category, but this is never guaranteed, so the service
+                provider reserves the right to change the vehicle type and category.
             </li>
             <li>
-                For customers arriving at the service meeting point by air; It is the service provider's responsibility to monitor the airline's delays, but this is limited to 3 hours. For delays of more than 3 hours, Şah Excursions Transfer should be contacted. Extra charges may apply for waiting times longer than 3 hours. If not accepted by the buyer, the service will not be provided.
+                For customers arriving at the service meeting point by air; It is the service provider's responsibility to monitor the
+                airline's delays, but this is limited to 3 hours. For delays of more than 3 hours, Island Travel should be contacted.
+                Extra charges may apply for waiting times longer than 3 hours. If not accepted by the buyer, the service will not be provided.
             </li>
             <li>
-                The meeting and waiting time with the Buyer at the time and place of the return and meeting (hotel-address-home) is limited to 15 minutes, the buyer who does not come during this period loses his right to service and no refund is made, in such cases the customer service cannot reach you (mobile phone). Buyer is responsible for
+                The meeting and waiting time with the Buyer at the time and place of the return and meeting (hotel-address-home) is limited
+                to 15 minutes, the buyer who does not come during this period loses his right to service and no refund is made, in such cases
+                the customer service cannot reach you (mobile phone). Buyer is responsible for
             </li>
         </ol>
+        
         <p>
-            All vehicles to be used for the specified services are the responsibility of the service provider, with the vehicles whose legal responsibilities and authorities have been fulfilled.
+            All vehicles to be used for the specified services are the responsibility of the service provider, with the vehicles whose legal
+            responsibilities and authorities have been fulfilled.
         </p>
-        <h5>
-            Change of content in the contract and on the website
-        </h5>
+        
+        <h5>Change of content in the contract and on the website</h5>
+        
         <p>
-            Şah Excursions Transfer reserves the right to make changes in all the articles in this contract, as well as the price and information on the site, and can make these changes at any time, and users are deemed to have accepted these changes without extra notice.
+            Island Travel reserves the right to make changes in all the articles in this contract, as well as the price and information on
+            the site, and can make these changes at any time, and users are deemed to have accepted these changes without extra notice.
         </p>
+        
         <p>
-            Şah Excursions Transfer, as a result of breach of contract, tort, negligence or other reasons; does not accept any responsibility for interruption of the transaction, error, negligence, interruption, deletion, loss, delay of the transaction or communication, computer virus, communication error, theft, destruction or unauthorized entry, modification or use of the records.
+            Island Travel, as a result of breach of contract, tort, negligence or other reasons; does not accept any responsibility for
+            interruption of the transaction, error, negligence, interruption, deletion, loss, delay of the transaction or communication,
+            computer virus, communication error, theft, destruction or unauthorized entry, modification or use of the records.
         </p>
+        
         <p>
-            Şah Excursions Transfer accepts that it will not use the terms in this contract in illegal unlawful acts, and the user is deemed to have accepted these terms by using the website or purchasing services. In the implementation of this contract, the Consumer Arbitration Committees and the Consumer Courts in the settlement of Şah Excursions Transfer (ŞAH TOURS TAŞIMACILIK TİCARET LİMİTED ŞİRKETİ) are authorized up to the value declared by the Ministry of Industry and Trade.
-        </p>
+            Island Travel accepts that it will not use the terms in this contract in illegal unlawful acts, and the user is deemed to have
+            accepted these terms by using the website or purchasing services.
+        </p>        
     </div>
 {% endblock %}

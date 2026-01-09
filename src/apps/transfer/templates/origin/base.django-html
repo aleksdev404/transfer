@@ -33,7 +33,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
     <title>
         {% block title %}
-        {% endblock %} - Şahturizm | Lüks,Konforlu Ve Güvenli Transfer
+        {% endblock %} - Island Travel | Lüks,Konforlu Ve Güvenli Transfer
     </title>
 </head>
 
@@ -57,7 +57,7 @@
     <div class="copy-right-area">
         <div class="container">
             <p>
-                Made with ❤️ by <i class="bx bx-copyright"></i> Hoolisoftware
+                Made with ❤️ by ILKHAN TATAEV
             </p>
         </div>
     </div>

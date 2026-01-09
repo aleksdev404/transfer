@@ -2364,7 +2364,7 @@ Team Area Style
 Track Area Style
 =================================================*/
 .track-area {
-  background-image: url(../img/track-bg.jpg);
+  background-image: url(../img/track-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

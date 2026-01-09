@@ -147,7 +147,7 @@
                                         </div>
                                     </div>
                                     <button type="submit" class="default-btn">
-                                        <span>GÖNDER</span>
+                                        <span>{% trans "SUBMIT" %}</span>
                                     </button>
                                 {% endif %}
                                 {% csrf_token %}
@@ -161,13 +161,6 @@
 </section>
 <section class="services-area services-area-two bg-color pt-100 pb-70">
     <div class="container">
-        <div class="section-title">
-            <span>{% trans "TOUR ITINERARIES" %}</span>
-            <h2>{% trans "BEST ALANYA TOURS, TRIPS AND ACTIVITIES, AT THE BEST PRICES" %}</h2>
-            <p>
-                {% trans "Daily tours, excursions, activities, package tour programs, accommodation tours, private tour programs for groups and individuals in Alanya, Side, Antalya, Pamukkale and Cappadocia regions." %}
-            </p>
-        </div>
         <div class="row">
             {% for tour in tours %}
                 <div class="col-lg-4 col-sm-6">

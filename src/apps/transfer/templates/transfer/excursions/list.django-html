@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title='Get Excursion' title_detail='BUY EXCURSION ONLINE' background_url="/static/img/breadcrumb-backgrounds/tour-list.jpg" %}
+{% include 'transfer/breadcrumb.django-html' with title=_('Get Excursion') title_detail=_('BUY EXCURSION ONLINE') background_url="/static/img/breadcrumb.jpg" %}
 
 <section class="services-area services-area-two bg-color pt-100 pb-70">
     <div class="container">
