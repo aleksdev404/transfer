@@ -7,6 +7,7 @@ app_name = 'transfer'
 
 urlpatterns = (
     path('', views.HomeView.as_view(), name='home'),
+    path('quick-transfer-form/', views.quick_transfer_form, name='quick-transfer-form'),  # noqa
     path('iletisim/', views.ContactView.as_view(), name='contact'),
     path('hakkimizda/', views.AboutView.as_view(), name='about'),
     path('online-siparis/', views.OrderView.as_view(), name='order'),

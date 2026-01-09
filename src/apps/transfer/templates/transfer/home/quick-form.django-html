@@ -1,0 +1,118 @@
+{% load i18n %}
+{% load transfers %}
+{% load widget_tweaks %}
+
+
+<div class="quote-price-content wow animate__animated animate__fadeInRight"
+    data-wow-delay="0.3s">
+    <div class="courses-title">
+        <h3>
+            {% trans "GET TRANSFER PRICE" %}
+        </h3>
+        {% if messages %}
+            {% for message in messages %}
+                <script>
+                    Swal.fire({
+                        icon: 'success',
+                        text: '{{ message }}!',
+                    })
+                </script>
+            {% endfor %}
+        {% else %}
+            <p>
+                {% trans "Please fill out the transfer form below so that we can offer you a price quote." %}
+            </p>
+        {% endif %}
+    </div>
+    <form
+        class="courses-form"
+        method="POST"
+        action="{% url 'transfer:quick-transfer-form' %}"
+        target="_blank"
+    >
+        {% if request.method == "POST"  %}
+            <p>{% trans "Our support team will contact you soon and offer you a price quote. Thank you for your attention. You can reach us 24/7 via the support line." %}</p>
+        {% else %}
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <div class="form-group">
+                        {% render_field form.rfrom id="selectFrom" hidden=True %}
+                        <input required id="autoCompleteFrom" name="rfrom" class="autocomplete-custom" autocomplete="off"/>
+                        <script>
+                            window.addEventListener("load", (event) => {
+                                const selectFrom = document.getElementById('selectFrom')
+                                const autoCompleteFrom = new autoComplete({
+                                    name: "autoComplete",
+                                    selector: "#autoCompleteFrom", // Any valid selector
+                                    data: {
+                                        src: [
+                                            {% for place in places %}
+                                                { {{ place.id }}: "{{ place.name }}"},
+                                            {% endfor %}
+                                        ],
+                                        keys: [
+                                            {% for place in places %}
+                                                {{ place.id }},
+                                            {% endfor %}
+                                        ]
+                                    },
+                                    resultItem: {
+                                        highlight: true
+                                    }
+                                });
+                                autoCompleteFrom.input.addEventListener("selection", function (event) {
+                                    const feedback = event.detail;
+                                    autoCompleteFrom.input.blur();
+                                    const selection = feedback.selection.value[feedback.selection.key];
+                                    selectFrom.value = feedback.selection.key
+                                    autoCompleteFrom.input.value = selection;
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="form-group">
+                        {% render_field form.rto id="selectTo" hidden=True %}
+                        <input required id="autoCompleteTo" name="rto" class="autocomplete-custom" autocomplete="off"/>
+                        <script>
+                            window.addEventListener("load", (event) => {
+                                const selectFrom = document.getElementById('selectTo')
+                                const autoCompleteFrom = new autoComplete({
+                                    name: "autoComplete",
+                                    selector: "#autoCompleteTo", // Any valid selector
+                                    data: {
+                                        src: [
+                                            {% for place in places %}
+                                                { {{ place.id }}: "{{ place.name }}"},
+                                            {% endfor %}
+                                        ],
+                                        keys: [
+                                            {% for place in places %}
+                                                {{ place.id }},
+                                            {% endfor %}
+                                        ]
+                                    },
+                                    resultItem: {
+                                        highlight: true
+                                    }
+                                });
+                                autoCompleteFrom.input.addEventListener("selection", function (event) {
+                                    const feedback = event.detail;
+                                    autoCompleteFrom.input.blur();
+                                    const selection = feedback.selection.value[feedback.selection.key];
+                                    selectFrom.value = feedback.selection.key
+                                    autoCompleteFrom.input.value = selection;
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="default-btn">
+                <span>{% trans "SUBMIT" %}</span>
+            </button>
+        {% endif %}
+        {% csrf_token %}
+    </form>
+</div>

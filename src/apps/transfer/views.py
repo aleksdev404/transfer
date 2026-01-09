@@ -1,5 +1,10 @@
-from django.views import generic
+from urllib.parse import quote_plus
+
+from django.shortcuts import redirect
+from django.http import HttpResponseRedirect
 from django.contrib.messages.views import SuccessMessageMixin
+from django.views import generic
+from django.views.decorators.http import require_POST
 from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 
@@ -20,7 +25,7 @@ class HomeView(SuccessMessageMixin, generic.CreateView):
         'date',
         'time',
     )
-    template_name = 'transfer/home.django-html'
+    template_name = 'transfer/home/index.django-html'
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -28,6 +33,23 @@ class HomeView(SuccessMessageMixin, generic.CreateView):
             **context,
             'tours': models.Excursion.objects.all()[:3]
         }
+
+
+@require_POST
+def quick_transfer_form(request):
+    rfrom = request.POST.get("rfrom")
+    rto = request.POST.get("rto")
+
+    if not rfrom or not rto:
+        return redirect("transfer:home")
+
+    message = f"Hello, I need to go from {rfrom} to {rto}."
+    encoded_message = quote_plus(message)
+
+    phone = models.CompanyData.load().phone_whatsapp  # without +
+    url = f"https://wa.me/{phone}?text={encoded_message}"
+
+    return HttpResponseRedirect(url)
 
 
 class AboutView(generic.TemplateView):
