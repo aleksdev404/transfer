@@ -58,7 +58,7 @@
 
 .quote-price-content,
 .single-counter,
-.single-contact-info,
+.single-contact-info
 {
     border-radius: calc(var(--border-radius-1) * 2) !important;
 }
