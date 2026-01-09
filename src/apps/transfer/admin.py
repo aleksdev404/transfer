@@ -160,6 +160,13 @@ class MediaAdmin(admin.ModelAdmin):
 class FAQAdmin(admin.ModelAdmin):
     list_display = (
         'question',
+        'answer',
+        'question_en',
+        'answer_en'
+    )
+    list_editable = (
+        'question_en',
+        'answer_en'
     )
 
 

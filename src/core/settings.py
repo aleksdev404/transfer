@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_cleanup.apps.CleanupConfig',
     'modeltranslation',
     'widget_tweaks',
     'apps.transfer'
@@ -101,3 +102,6 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MODELTRANSLATION_ENABLE_FALLBACKS = True
+MODELTRANSLATION_FALLBACK_LANGUAGES = ('en', 'de', 'ru', 'tr')

@@ -1,0 +1,82 @@
+{% load i18n %}
+
+<div class="widget-sidebar" style="position: sticky; top: 128px;">
+    {% if object.category %}
+        <div class="sidebar-widget categories">
+            <h3>{% trans "Category" %}</h3>
+            <ul>
+                <li>
+                    <a href="#">{{ object.category }}</a>
+                </li>
+            </ul>
+        </div>
+    {% endif %}
+    <div class="sidebar-widget categories">
+        <ul>
+            <li>
+                {% trans "Excursion duration" %} :
+                {% if object.duration_hours %}
+                    <span>
+                        {{ object.duration_hours }} {% trans "hours" %}
+                    </span>
+                {% else %}
+                    <span>{% trans "Please ask" %}</span>
+                {% endif %}
+            </li>
+            <li>
+                {% trans "Start-end clocks" %} :
+                {% if object.time_start and object.time_end %}
+                    <span>
+                        {% if object.time_start %}
+                            {{ object.time_start }}
+                        {% else %}
+                            Yok
+                        {% endif %}
+                        &nbsp;
+                        -
+                        &nbsp;
+                        {% if object.time_end %}
+                            {{ object.time_end }}
+                        {% else %}
+                            Yok
+                        {% endif %}
+                    </span>
+                {% else %}
+                    <span>{% trans "Please ask" %}</span>
+                {% endif %}
+            </li>
+            {% if object.weekdays.all %}
+                <b>
+                    {% trans "Working days" %} :
+                </b>
+                <br>
+                <span>
+                    {% for day in object.weekdays.all %}
+                        {{ day.name }}{% if not forloop.last %},{% endif %}
+                    {% endfor %}
+                </span>
+            {% endif %}
+        </ul>
+        <br>
+        <a
+            href='https://api.whatsapp.com/send?phone={{company_data.phone_whatsapp}}&text=I want "{{ object.name }} ({{ object.id }})" tour'
+            target="_blank"
+            class="btn-lg btn-success d-block text-center w-100"
+        >
+            {% trans "BOOK NOW" %}
+        </a>        
+    </div>
+    {% if object.tags.all %}
+        <div class="sidebar-widget categories">
+            <h3>{% trans "Tags" %}</h3>
+            <ul>
+                {% for tag in object.tags.all %}
+                    <li>
+                        {{ tag.name }}
+                        <span>{{ tag.tour_set.count }} tur</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+</div>

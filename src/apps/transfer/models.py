@@ -1,10 +1,48 @@
-from django_resized import ResizedImageField
-
+import os
 import uuid
+
+from django_resized import ResizedImageField
+from slugify import slugify
 
 from django.db import models
 from django.urls import reverse, reverse_lazy
 from django.utils.translation import gettext_lazy as _
+
+
+def upload_to(field_name: str = None, filename_attr: str = None):
+    """
+    Путь:
+        <app>/<model>/<field(optional)>/<slugified_name>.<ext>
+
+    Имя файла:
+        1) slugify(instance.<filename_attr>)
+        2) иначе slugify(<original filename>)
+    """
+
+    def _(instance, filename: str):
+        app = instance._meta.app_label
+        model = instance.__class__.__name__.lower()
+
+        ext = os.path.splitext(filename)[1]
+        original_base = os.path.splitext(filename)[0]
+
+        # источник имени
+        base = original_base
+        if filename_attr:
+            value = getattr(instance, filename_attr, None)
+            if value:
+                base = value
+
+        # всегда slugify
+        base = slugify(base)
+
+        path = f"{app}/{model}"
+        if field_name:
+            path += f"/{field_name}"
+
+        return f"{path}/{base}{ext}"
+
+    return _
 
 
 class WeekDay(models.Model):
@@ -155,19 +193,19 @@ class Excursion(models.Model):
     name = models.CharField('Tur adı', max_length=55)
     excerpt = models.TextField('Kısa açıklama')
     description = models.TextField('Açıklama')
-    duration_hours = models.PositiveIntegerField('Tur süresi')
+    duration_hours = models.PositiveIntegerField('Tur süresi', blank=True, null=True)  # noqa
     created = models.DateField(auto_now_add=True)
     image = ResizedImageField(
         size=[1024, 724],
         crop=['middle', 'center'],
         quality=75,
-        upload_to="transfer/excursion/image"
+        upload_to=upload_to("image", "name")
     )
     image_head = ResizedImageField(
         size=[1920, 600],
         crop=['middle', 'center'],
         quality=90,
-        upload_to="transfer/excursion/image"
+        upload_to=upload_to("image_head", "name")
     )
     category = models.ForeignKey(verbose_name='Kategori', to=ExcursionCategory, on_delete=models.SET_NULL, blank=True, null=True) # noqa ignore
     tags = models.ManyToManyField(to=ExcursionTag, blank=True)

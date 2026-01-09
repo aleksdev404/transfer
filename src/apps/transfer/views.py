@@ -84,7 +84,7 @@ class OrderView(SuccessMessageMixin, generic.CreateView):
 
     def get_success_url(self):
         return (
-            'https://api.whatsapp.com/send?phone=905319476645&text='
+            f'https://api.whatsapp.com/send?phone={models.CompanyData.load().phone_whatsapp}&text=' # noqa
             'Merhaba! islandtravel.com.tr web-sitesi üzerinden transfer formunu doldurdum.%0A%0A' # noqa
             f'{self.request.scheme}://{self.request.get_host()}{self.object.get_absolute_url()}' # noqa
         )

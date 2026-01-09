@@ -4,12 +4,15 @@
 {% load i18n %}
 {% load transfers %}
 
+
+
 {% block title %}
-    {{ object.name }}
+{{ object.name }}
 {% endblock %}
 
 {% block content %}
-{% include 'transfer/breadcrumb.django-html' with title=object.name title_detail=object.name background_url=object.image.url %}
+{% get_company_data as company_data %}
+{% include 'transfer/breadcrumb.django-html' with title=object.name title_detail=object.name background_url=object.image_head.url %}
 <section class="services-details-area pt-100 pb-70">
     <div class="container">
         <div class="row">
@@ -21,75 +24,11 @@
                     <br>
                 {% endif %}
                 <div class="content-one">
-                    <h3>{{ object.excerpt }}</h3>
                     <p>{{ object.description | markdown }}</p>
-                    <br>
-                    <a href='https://api.whatsapp.com/send?phone=905319476645&text=I want "{{ object.name }} ({{ object.id }})" tour' class="btn-lg btn-success">
-                        {% trans "I WANT THIS TOUR" %}
-                    </a>
-                    <br>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="widget-sidebar">
-                    <div class="sidebar-widget categories">
-                        <h3>{% trans "Category" %}</h3>
-                        <ul>
-                            <li>
-                                <a href="#">{{ object.category }}</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-widget categories">
-                        <ul>
-                            <li>
-                                {% trans "Excursion duration" %} :
-                                <span>{{ tour.duration_hours }} saat</span>
-                            </li>
-                            <li>
-                                {% trans "Start-end clocks" %} :
-                                <span>
-                                    {% if tour.time_start %}
-                                        {{ tour.time_start }}
-                                    {% else %}
-                                        Yok
-                                    {% endif %}
-                                    &nbsp;
-                                    -
-                                    &nbsp;
-                                    {% if tour.time_end %}
-                                        {{ tour.time_end }}
-                                    {% else %}
-                                        Yok
-                                    {% endif %}
-                                </span>
-                            </li>
-                            {% if object.weekdays.all %}
-                                <b>
-                                    {% trans "Working days" %} :
-                                </b>
-                                <br>
-                                <span>
-                                    {% for day in object.weekdays.all %}
-                                        {{ day.name }}
-                                        {% if not forloop.last %},{% endif %}
-                                    {% endfor %}
-                                </span>
-                            {% endif %}
-                        </ul>
-                    </div>
-                    <div class="sidebar-widget categories">
-                        <h3>{% trans "Tags" %}</h3>
-                        <ul>
-                            {% for tag in object.tags.all %}
-                                <li>
-                                    {{ tag.name }}
-                                    <span>{{ tag.tour_set.count }} tur</span>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
+                {% include './sidebar.django-html' with object=object %}
             </div>
         </div>
     </div>

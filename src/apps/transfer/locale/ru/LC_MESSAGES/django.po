@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 15:49+0000\n"
+"POT-Creation-Date: 2026-01-09 19:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,10 @@ msgid ""
 "Island Travel provides professional transportation services, ensuring safe "
 "and comfortable transfers from airports and any location you specify to your "
 "desired destination."
-msgstr "Island Travel предоставляет профессиональные транспортные услуги, обеспечивая безопасные и комфортные поездки из аэропортов и любых указанных вами точек к нужному вам месту назначения."
+msgstr ""
+"Island Travel предоставляет профессиональные транспортные услуги, "
+"обеспечивая безопасные и комфортные поездки из аэропортов и любых указанных "
+"вами точек к нужному вам месту назначения."
 
 #: apps/transfer/templates/transfer/about.django-html:41
 msgid "24/7 support"
@@ -180,27 +183,27 @@ msgid "Wide range of prices"
 msgstr "Широкий выбор цен и услуг"
 
 #: apps/transfer/templates/transfer/about.django-html:68
-#: apps/transfer/templates/transfer/home.django-html:196
+#: apps/transfer/templates/transfer/home/index.django-html:81
 msgid "Excursion programs"
 msgstr "Тур программы"
 
 #: apps/transfer/templates/transfer/about.django-html:78
-#: apps/transfer/templates/transfer/home.django-html:206
+#: apps/transfer/templates/transfer/home/index.django-html:91
 msgid "Language support"
 msgstr "Языков поддерживается"
 
 #: apps/transfer/templates/transfer/about.django-html:88
-#: apps/transfer/templates/transfer/home.django-html:216
+#: apps/transfer/templates/transfer/home/index.django-html:101
 msgid "Happy customer"
 msgstr "Довольных клиентов"
 
 #: apps/transfer/templates/transfer/about.django-html:98
-#: apps/transfer/templates/transfer/home.django-html:226
+#: apps/transfer/templates/transfer/home/index.django-html:111
 msgid "Completed transfers"
 msgstr "Законченных трансферов"
 
 #: apps/transfer/templates/transfer/breadcrumb.django-html:10
-#: apps/transfer/templates/transfer/home.django-html:9
+#: apps/transfer/templates/transfer/home/index.django-html:8
 msgid "Home Page"
 msgstr "Главная"
 
@@ -226,13 +229,11 @@ msgstr "Оперативная поддержка 24/7"
 
 #: apps/transfer/templates/transfer/contact.django-html:47
 msgid "Live Chat All The Time With Our Company 24/7"
-msgstr ""
-"Выходите с нами на связь и обсуждайте детали заказов в удобное вам время"
+msgstr "Выходите с нами на связь и обсуждайте детали заказов в удобное вам время"
 
 #: apps/transfer/templates/transfer/contact.django-html:58
 msgid "Drop Us A Message For Any Query"
-msgstr ""
-"Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
+msgstr "Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
 "вопросы"
 
 #: apps/transfer/templates/transfer/contact.django-html:104
@@ -244,27 +245,36 @@ msgstr "Заполняя эту форму, вы соглашаетесь с П�
 msgid "Send Message"
 msgstr "Отправить сообщение"
 
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:28
-msgid "I WANT THIS TOUR"
-msgstr "ХОЧУ ЭТОТ ТУР"
-
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:36
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:6
 msgid "Category"
 msgstr "Категория"
 
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:46
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:17
 msgid "Excursion duration"
 msgstr "Длительность тура"
 
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:50
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:20
+msgid "hours"
+msgstr "часов"
+
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:23
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:45
+msgid "Please ask"
+msgstr "Спрашивайте"
+
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:27
 msgid "Start-end clocks"
 msgstr "Время начала-конца"
 
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:69
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:50
 msgid "Working days"
 msgstr "Дни работы"
 
-#: apps/transfer/templates/transfer/excursions/detail/index.django-html:82
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:66
+msgid "BOOK NOW"
+msgstr "ЗАПИСАТЬСЯ"
+
+#: apps/transfer/templates/transfer/excursions/detail/sidebar.django-html:71
 msgid "Tags"
 msgstr "Теги"
 
@@ -279,7 +289,7 @@ msgid "BUY EXCURSION ONLINE"
 msgstr "ЗАКАЖИТЕ ЭКСКУРСИЮ ОНЛАЙН"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:28
-#: apps/transfer/templates/transfer/home.django-html:177
+#: apps/transfer/templates/transfer/home/index.django-html:62
 msgid "READ MORE"
 msgstr "УЗНАТЬ БОЛЬШЕ"
 
@@ -309,19 +319,18 @@ msgstr "Получите ответы на вопросы здесь"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:49
 msgid "Drop Us A Message For Any Question"
-msgstr ""
-"Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
+msgstr "Оставляйте тикеты по любым вопросам, что бы получить ответы на интересующие "
 "вопросы"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:101
 msgid "Send question"
 msgstr "Отправить вопрос"
 
-#: apps/transfer/templates/transfer/home.django-html:26
+#: apps/transfer/templates/transfer/home/index.django-html:25
 msgid "Luxury, Comfortable And Safe Transfer"
 msgstr "Удобный, комфортный и безопасный трансфер"
 
-#: apps/transfer/templates/transfer/home.django-html:28
+#: apps/transfer/templates/transfer/home/index.django-html:27
 msgid ""
 "You can take advantage of our airport transfer service to catch your plane "
 "on time or to go to your destination comfortably after many tiring journeys."
@@ -330,19 +339,19 @@ msgstr ""
 "что бы добраться в место назначения, мы всё сделаем за вас а вам остаётся "
 "только довериться нашему опыту."
 
-#: apps/transfer/templates/transfer/home.django-html:32
+#: apps/transfer/templates/transfer/home/index.django-html:31
 msgid "GET TRANSFER"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: apps/transfer/templates/transfer/home.django-html:35
+#: apps/transfer/templates/transfer/home/index.django-html:34
 msgid "CONTACT US"
 msgstr "СВЯЗАТЬСЯ"
 
-#: apps/transfer/templates/transfer/home.django-html:45
+#: apps/transfer/templates/transfer/home/quick-form.django-html:10
 msgid "GET TRANSFER PRICE"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: apps/transfer/templates/transfer/home.django-html:58
+#: apps/transfer/templates/transfer/home/quick-form.django-html:23
 msgid ""
 "Please fill out the transfer form below so that we can offer you a price "
 "quote."
@@ -350,7 +359,7 @@ msgstr ""
 "Пожалуйста заполните форму для того что бы мы предложили вам оптимальную "
 "стоимость пакета."
 
-#: apps/transfer/templates/transfer/home.django-html:64
+#: apps/transfer/templates/transfer/home/quick-form.django-html:34
 msgid ""
 "Our support team will contact you soon and offer you a price quote. Thank "
 "you for your attention. You can reach us 24/7 via the support line."
@@ -358,7 +367,7 @@ msgstr ""
 "Наша служба поддержи свяжется с вами в ближайшее время что бы обсудить "
 "детали заказа. Вы так же можете связаться с нами 24/7 через службу поддержки."
 
-#: apps/transfer/templates/transfer/home.django-html:150
+#: apps/transfer/templates/transfer/home/quick-form.django-html:113
 msgid "SUBMIT"
 msgstr "ОТПРАВИТЬ"
 
@@ -410,21 +419,24 @@ msgstr "Ваша заметка"
 msgid "SEND REQUEST FOR FREE"
 msgstr "РАСЧИТАТЬ ЦЕНУ БЕСПЛАТНО"
 
-#: apps/transfer/views.py:11
+#: apps/transfer/views.py:16
 msgid "Your request sent succesfully!"
 msgstr "Заявка успешно отправлена!"
 
-#: apps/transfer/views.py:59
+#: apps/transfer/views.py:81
 msgid "Your request created successfully!"
 msgstr "Заявка успешно создана!"
 
-#: apps/transfer/views.py:85
+#: apps/transfer/views.py:106
 msgid "Form sent successfully!"
 msgstr "Форма отправлена успешно!"
 
-#: apps/transfer/views.py:103
+#: apps/transfer/views.py:124
 msgid "Your message sent successfully!"
 msgstr "Ваше сообщение успешно отправлено!"
+
+#~ msgid "I WANT THIS TOUR"
+#~ msgstr "ХОЧУ ЭТОТ ТУР"
 
 #~ msgid ""
 #~ "As ISLAND TRAVEL, we have been serving you with our professional staff "
