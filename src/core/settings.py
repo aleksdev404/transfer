@@ -8,7 +8,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'transfer.aleksdev.space'
+    'transfer.aleksdev.space',
+    'islandtravel.com.tr'
 ]
 CSRF_TRUSTED_ORIGINS = ['https://transfer.aleksdev.space']
 
