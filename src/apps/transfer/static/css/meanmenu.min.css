@@ -45,7 +45,7 @@ a.meanmenu-reveal {
   margin-top: 62px;
 
   /* TODO: CHECK */
-  background: rgba(255, 255, 255, 0.55) !important;
+  background: white !important;
   -webkit-backdrop-filter: blur(14px) saturate(160%) !important;
   backdrop-filter: blur(14px) saturate(160%) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.35) !important;
