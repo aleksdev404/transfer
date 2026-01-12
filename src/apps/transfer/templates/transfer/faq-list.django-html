@@ -4,6 +4,11 @@
 {% load i18n %}
 {% load widget_tweaks %}
 
+{% block head %}
+    <meta property="og:title" content="{% trans 'IslandTravel — FAQ' %}">
+    <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
+{% endblock %}
+
 {% block title %}
     {% trans "Frequently asked questions" %}
 {% endblock %}

@@ -3,6 +3,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block head %}
+    <meta property="og:title" content="{% trans 'IslandTravel — Excursions' %}">
+    <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
+{% endblock %}
+
 {% block title %}
     {% trans "Excursion List" %}
 {% endblock %}

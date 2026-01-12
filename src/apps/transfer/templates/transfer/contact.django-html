@@ -5,6 +5,11 @@
 {% load transfers %}
 {% load widget_tweaks %}
 
+{% block head %}
+    <meta property="og:title" content="{% trans 'IslandTravel — Contact' %}">
+    <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
+{% endblock %}
+
 {% block title %}
     {% trans 'Contact us' %}
 {% endblock %}

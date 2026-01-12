@@ -5,6 +5,11 @@
 {% load widget_tweaks %}
 {% load transfers %}
 
+{% block head %}
+    <meta property="og:title" content="{% trans 'BOOK TRANSFER NOW' %}">
+    <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
+{% endblock %}
+
 {% block title %}
     {% trans "GET TRANSFER ONLINE" %}
 {% endblock %}

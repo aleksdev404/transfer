@@ -13,6 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     
+    {% block head %}
+        <meta property="og:title" content="{% trans 'IslandTravel — Airport, Hotel, City' %}">
+        <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
+    {% endblock head %}
+    
+    <meta name="description" content="{% trans 'Private transfers in Istanbul — IST & SAW airports, hotels, city center and any destination. Comfortable vehicles, fixed prices, easy online booking.' %}">
+    <meta name="keywords" content="{% trans 'Istanbul transfer, airport transfer IST, SAW transfer, Istanbul taxi, private transfer, hotel to airport transfer' %}">
+    <meta property="og:description" content="{% trans 'Reliable private transfers in Istanbul: airports, hotels and any routes. Fixed price, no hidden fees, WhatsApp support.' %}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{% url 'transfer:home' %}">
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="{% static '' %}css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static '' %}css/owl.theme.default.min.css">

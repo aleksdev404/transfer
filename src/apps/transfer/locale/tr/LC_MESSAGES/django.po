@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 19:43+0000\n"
+"POT-Creation-Date: 2026-01-12 17:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,63 +18,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: apps/transfer/models.py:42 apps/transfer/models.py:243
+#: apps/transfer/models.py:80 apps/transfer/models.py:281
 msgid "E-mail"
 msgstr "E-posta"
 
-#: apps/transfer/models.py:43
+#: apps/transfer/models.py:81
 msgid "Phone number"
 msgstr "Telefon numarası"
 
-#: apps/transfer/models.py:45 apps/transfer/models.py:82
+#: apps/transfer/models.py:83 apps/transfer/models.py:120
 msgid "Passengers"
 msgstr "Yolcu sayısı"
 
-#: apps/transfer/models.py:46 apps/transfer/models.py:83
+#: apps/transfer/models.py:84 apps/transfer/models.py:121
 msgid "Baggage (kg)"
 msgstr "Bagaj (kg)"
 
-#: apps/transfer/models.py:48
+#: apps/transfer/models.py:86
 msgid "From where?"
 msgstr "Nereden?"
 
-#: apps/transfer/models.py:49
+#: apps/transfer/models.py:87
 msgid "To where?"
 msgstr "Nereye?"
 
-#: apps/transfer/models.py:51 apps/transfer/models.py:79
+#: apps/transfer/models.py:89 apps/transfer/models.py:117
 msgid "Meeting date"
 msgstr "Buluşma tarihi"
 
-#: apps/transfer/models.py:52 apps/transfer/models.py:80
+#: apps/transfer/models.py:90 apps/transfer/models.py:118
 msgid "Meeting time"
 msgstr "Buluşma saati"
 
-#: apps/transfer/models.py:76 apps/transfer/models.py:77
+#: apps/transfer/models.py:114 apps/transfer/models.py:115
 msgid "Flight code (IATA)"
 msgstr "Uçuş kodu (IATA)"
 
-#: apps/transfer/models.py:85
+#: apps/transfer/models.py:123
 msgid "Name"
 msgstr "İsim"
 
-#: apps/transfer/models.py:86
+#: apps/transfer/models.py:124
 msgid "Surname"
 msgstr "Soyisim"
 
-#: apps/transfer/models.py:87
+#: apps/transfer/models.py:125
 msgid "Description"
 msgstr "Açıklama"
 
-#: apps/transfer/models.py:92
+#: apps/transfer/models.py:130
 msgid "Rating"
 msgstr "Değerlendirme"
 
-#: apps/transfer/models.py:242
+#: apps/transfer/models.py:280
 msgid "Name surname"
 msgstr "İsim soyisim"
 
-#: apps/transfer/models.py:244
+#: apps/transfer/models.py:282
 msgid "Your message"
 msgstr "Mesajınız"
 
@@ -88,6 +88,36 @@ msgstr "Mesafeli Satış Sözleşmesi"
 #: apps/transfer/templates/test/test.django-html:7
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
+
+#: apps/transfer/templates/origin/base.django-html:17
+msgid "IslandTravel — Airport, Hotel, City"
+msgstr "IslandTravel — Havalimanı, Otel, Şehir"
+
+#: apps/transfer/templates/origin/base.django-html:21
+msgid ""
+"Private transfers in Istanbul — IST & SAW airports, hotels, city center and "
+"any destination. Comfortable vehicles, fixed prices, easy online booking."
+msgstr ""
+"İstanbul’da özel transferler — IST ve SAW havalimanları, oteller, şehir "
+"merkezi ve tüm varış noktaları. Konforlu araçlar, sabit fiyatlar, kolay "
+"online rezervasyon."
+
+#: apps/transfer/templates/origin/base.django-html:22
+msgid ""
+"Istanbul transfer, airport transfer IST, SAW transfer, Istanbul taxi, "
+"private transfer, hotel to airport transfer"
+msgstr ""
+"İstanbul transfer, IST havalimanı transferi, SAW transferi, İstanbul taksi, "
+"özel transfer, otelden havalimanına transfer"
+
+#: apps/transfer/templates/origin/base.django-html:23
+msgid ""
+"Reliable private transfers in Istanbul: airports, hotels and any routes. "
+"Fixed price, no hidden fees, WhatsApp support."
+msgstr ""
+"İstanbul’da güvenilir özel transferler: havalimanları, oteller ve tüm "
+"güzergâhlar. Sabit fiyat, gizli ücret yok, WhatsApp desteği."
+
 
 #: apps/transfer/templates/origin/footer.django-html:29
 msgid "Excursion itineraries"
@@ -104,16 +134,16 @@ msgstr "Ana sayfa"
 
 #: apps/transfer/templates/origin/footer.django-html:48
 #: apps/transfer/templates/origin/header.django-html:88
-#: apps/transfer/templates/transfer/about.django-html:8
-#: apps/transfer/templates/transfer/about.django-html:12
-#: apps/transfer/templates/transfer/about.django-html:31
+#: apps/transfer/templates/transfer/about.django-html:13
+#: apps/transfer/templates/transfer/about.django-html:17
+#: apps/transfer/templates/transfer/about.django-html:36
 msgid "About us"
 msgstr "Hakkımızda"
 
 #: apps/transfer/templates/origin/footer.django-html:51
 #: apps/transfer/templates/origin/header.django-html:85
-#: apps/transfer/templates/transfer/contact.django-html:9
-#: apps/transfer/templates/transfer/contact.django-html:15
+#: apps/transfer/templates/transfer/contact.django-html:14
+#: apps/transfer/templates/transfer/contact.django-html:20
 msgid "Contact us"
 msgstr "İletişim"
 
@@ -122,7 +152,7 @@ msgid "Get transfer"
 msgstr "Transfer Kayıt"
 
 #: apps/transfer/templates/origin/footer.django-html:57
-#: apps/transfer/templates/transfer/excursions/list.django-html:11
+#: apps/transfer/templates/transfer/excursions/list.django-html:16
 msgid "Get Excursion"
 msgstr "Tur listesi"
 
@@ -146,20 +176,24 @@ msgstr "Tur listesi"
 msgid "BUY TRANSFER"
 msgstr "TRANSFER KAYIT"
 
-#: apps/transfer/templates/transfer/about.django-html:12
+#: apps/transfer/templates/transfer/about.django-html:8
+msgid "IslandTravel — About"
+msgstr "IslandTravel — Hakkımızda"
+
+#: apps/transfer/templates/transfer/about.django-html:17
 msgid "OUR VISION"
 msgstr "BİZİM VİZYONUMUZ"
 
-#: apps/transfer/templates/transfer/about.django-html:23
+#: apps/transfer/templates/transfer/about.django-html:28
 msgid "20 years in tourism industry"
 msgstr "20 yıldır sektör içindeyiz"
 
-#: apps/transfer/templates/transfer/about.django-html:33
+#: apps/transfer/templates/transfer/about.django-html:38
 msgid "We are a tour operator providing services in transfer and tour areas."
 msgstr ""
 "Bizim sitemizde transfer ve tur paketleri en güncel bilgileriyle mevcuttur."
 
-#: apps/transfer/templates/transfer/about.django-html:36
+#: apps/transfer/templates/transfer/about.django-html:41
 msgid ""
 "Island Travel provides professional transportation services, ensuring safe "
 "and comfortable transfers from airports and any location you specify to your "
@@ -169,34 +203,34 @@ msgstr ""
 "belirttiğiniz tüm noktalardan istediğiniz varış noktasına güvenli ve "
 "konforlu transferler sağlar."
 
-#: apps/transfer/templates/transfer/about.django-html:41
+#: apps/transfer/templates/transfer/about.django-html:46
 msgid "24/7 support"
 msgstr "24/7 destek"
 
-#: apps/transfer/templates/transfer/about.django-html:45
+#: apps/transfer/templates/transfer/about.django-html:50
 msgid "Same day registration options"
 msgstr "Kayıt günü sizi alıp dilediğiniz yere götürüyoruz"
 
-#: apps/transfer/templates/transfer/about.django-html:49
+#: apps/transfer/templates/transfer/about.django-html:54
 msgid "Wide range of prices"
 msgstr "Geniş fiyat seçenekleri"
 
-#: apps/transfer/templates/transfer/about.django-html:68
+#: apps/transfer/templates/transfer/about.django-html:73
 #: apps/transfer/templates/transfer/home/index.django-html:81
 msgid "Excursion programs"
 msgstr "Tur paketi"
 
-#: apps/transfer/templates/transfer/about.django-html:78
+#: apps/transfer/templates/transfer/about.django-html:83
 #: apps/transfer/templates/transfer/home/index.django-html:91
 msgid "Language support"
 msgstr "Dil desteği"
 
-#: apps/transfer/templates/transfer/about.django-html:88
+#: apps/transfer/templates/transfer/about.django-html:93
 #: apps/transfer/templates/transfer/home/index.django-html:101
 msgid "Happy customer"
 msgstr "Mutlu müşteri"
 
-#: apps/transfer/templates/transfer/about.django-html:98
+#: apps/transfer/templates/transfer/about.django-html:103
 #: apps/transfer/templates/transfer/home/index.django-html:111
 msgid "Completed transfers"
 msgstr "Tamamlanmış transferler"
@@ -206,40 +240,44 @@ msgstr "Tamamlanmış transferler"
 msgid "Home Page"
 msgstr "Ana sayfa"
 
-#: apps/transfer/templates/transfer/contact.django-html:15
+#: apps/transfer/templates/transfer/contact.django-html:9
+msgid "IslandTravel — Contact"
+msgstr "IslandTravel — İletişim"
+
+#: apps/transfer/templates/transfer/contact.django-html:20
 msgid "GET THE HOTEST PROMOTIONS AND DISCOUNTS"
 msgstr "EN GÜNCEL KAMPANYALAR VE İNDİRİMLER HAKKINDA BİLGİ ALIN"
 
-#: apps/transfer/templates/transfer/contact.django-html:23
+#: apps/transfer/templates/transfer/contact.django-html:28
 msgid "Email Us:"
 msgstr "Email gönderin:"
 
-#: apps/transfer/templates/transfer/contact.django-html:32
+#: apps/transfer/templates/transfer/contact.django-html:37
 msgid "Call Us:"
 msgstr "Bizi arayın:"
 
-#: apps/transfer/templates/transfer/contact.django-html:39
+#: apps/transfer/templates/transfer/contact.django-html:44
 msgid "İstanbul"
 msgstr "İstanbul"
 
-#: apps/transfer/templates/transfer/contact.django-html:46
+#: apps/transfer/templates/transfer/contact.django-html:51
 msgid "Live Chat"
 msgstr "Canlı Destek"
 
-#: apps/transfer/templates/transfer/contact.django-html:47
+#: apps/transfer/templates/transfer/contact.django-html:52
 msgid "Live Chat All The Time With Our Company 24/7"
 msgstr "Destek ekibimizle 7/24 iletişime geçin"
 
-#: apps/transfer/templates/transfer/contact.django-html:58
+#: apps/transfer/templates/transfer/contact.django-html:63
 msgid "Drop Us A Message For Any Query"
 msgstr "Talep ve şikayetleriniz için formu doldurun"
 
-#: apps/transfer/templates/transfer/contact.django-html:104
-#: apps/transfer/templates/transfer/faq-list.django-html:95
+#: apps/transfer/templates/transfer/contact.django-html:109
+#: apps/transfer/templates/transfer/faq-list.django-html:100
 msgid "You are accepting Privacy Policy by filling this form."
 msgstr "Bu formu doldurarak Gizlilik Politikasını kabul ediyorsunuz."
 
-#: apps/transfer/templates/transfer/contact.django-html:110
+#: apps/transfer/templates/transfer/contact.django-html:115
 msgid "Send Message"
 msgstr "Mesaj gödner"
 
@@ -277,49 +315,57 @@ msgid "Tags"
 msgstr "Etiketler"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:7
+msgid "IslandTravel — Excursions"
+msgstr "IslandTravel — Turlar"
+
+#: apps/transfer/templates/transfer/excursions/list.django-html:12
 msgid "Excursion List"
 msgstr "Tur listesi"
 
-#: apps/transfer/templates/transfer/excursions/list.django-html:11
+#: apps/transfer/templates/transfer/excursions/list.django-html:16
 #, fuzzy
 #| msgid "BUY TOUR ONLINE"
 msgid "BUY EXCURSION ONLINE"
 msgstr "ONLINE TUR SIPARİŞ EDİN"
 
-#: apps/transfer/templates/transfer/excursions/list.django-html:28
+#: apps/transfer/templates/transfer/excursions/list.django-html:33
 #: apps/transfer/templates/transfer/home/index.django-html:62
 msgid "READ MORE"
 msgstr "DAHA FAZLA BİLGİ"
 
-#: apps/transfer/templates/transfer/excursions/list.django-html:40
+#: apps/transfer/templates/transfer/excursions/list.django-html:45
 msgid "PREVIOUS"
 msgstr "ÖNCEKİ"
 
-#: apps/transfer/templates/transfer/excursions/list.django-html:45
+#: apps/transfer/templates/transfer/excursions/list.django-html:50
 msgid "Page"
 msgstr "Sayfa"
 
-#: apps/transfer/templates/transfer/excursions/list.django-html:50
+#: apps/transfer/templates/transfer/excursions/list.django-html:55
 msgid "NEXT"
 msgstr "SONRAKİ"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:8
+msgid "IslandTravel — FAQ"
+msgstr "IslandTravel — SSS"
+
+#: apps/transfer/templates/transfer/faq-list.django-html:13
 msgid "Frequently asked questions"
 msgstr "Sıkça sorulan sorular"
 
-#: apps/transfer/templates/transfer/faq-list.django-html:12
+#: apps/transfer/templates/transfer/faq-list.django-html:17
 msgid "FREQUENTLY ASKED QUESTIONS"
 msgstr "SIKÇA SORULAN SORULAR"
 
-#: apps/transfer/templates/transfer/faq-list.django-html:17
+#: apps/transfer/templates/transfer/faq-list.django-html:22
 msgid "Get Every Single Answer"
 msgstr "Her bir sorunuza cevap alın"
 
-#: apps/transfer/templates/transfer/faq-list.django-html:49
+#: apps/transfer/templates/transfer/faq-list.django-html:54
 msgid "Drop Us A Message For Any Question"
 msgstr "Talep ve şikayetleriniz için formu doldurun"
 
-#: apps/transfer/templates/transfer/faq-list.django-html:101
+#: apps/transfer/templates/transfer/faq-list.django-html:106
 msgid "Send question"
 msgstr "Soru gönder"
 
@@ -368,30 +414,36 @@ msgid "SUBMIT"
 msgstr "GÖNDER"
 
 #: apps/transfer/templates/transfer/order.django-html:9
+#, fuzzy
+#| msgid "BUY TRANSFER"
+msgid "BOOK TRANSFER NOW"
+msgstr "TRANSFER KAYIT"
+
+#: apps/transfer/templates/transfer/order.django-html:14
 msgid "GET TRANSFER ONLINE"
 msgstr "TRANSFER KAYIT"
 
-#: apps/transfer/templates/transfer/order.django-html:25
+#: apps/transfer/templates/transfer/order.django-html:30
 msgid "Custom package"
 msgstr "Fiyat hesaplama"
 
-#: apps/transfer/templates/transfer/order.django-html:30
+#: apps/transfer/templates/transfer/order.django-html:35
 msgid "Ready packages"
 msgstr "Hazır paketler"
 
-#: apps/transfer/templates/transfer/order.django-html:48
+#: apps/transfer/templates/transfer/order.django-html:53
 msgid "Personal data"
 msgstr "Özel bilgileriniz"
 
-#: apps/transfer/templates/transfer/order.django-html:95
+#: apps/transfer/templates/transfer/order.django-html:100
 msgid "Start location"
 msgstr "Başlangıç noktası"
 
-#: apps/transfer/templates/transfer/order.django-html:141
+#: apps/transfer/templates/transfer/order.django-html:146
 msgid "Destination location"
 msgstr "Gideceğiniz yer"
 
-#: apps/transfer/templates/transfer/order.django-html:180
+#: apps/transfer/templates/transfer/order.django-html:185
 msgid ""
 "If you wish, you can create both a round trip and a return transfer within "
 "the scope of the same request, for this click the blue arrow button above."
@@ -399,19 +451,19 @@ msgstr ""
 "Dilerseniz aynı talep kapsamında hem gidiş hem dönüş transferi "
 "oluşturabilirsiniz, bunun için üstteki mavi ok butonuna tıklayınız."
 
-#: apps/transfer/templates/transfer/order.django-html:184
+#: apps/transfer/templates/transfer/order.django-html:189
 msgid "Transfer data"
 msgstr "Transfer (gidiş) bilgileri"
 
-#: apps/transfer/templates/transfer/order.django-html:239
+#: apps/transfer/templates/transfer/order.django-html:244
 msgid "Reverse (back) transfer data"
 msgstr "Transfer (geliş) bilgileri"
 
-#: apps/transfer/templates/transfer/order.django-html:294
+#: apps/transfer/templates/transfer/order.django-html:299
 msgid "Your note"
 msgstr "Notunuz"
 
-#: apps/transfer/templates/transfer/order.django-html:306
+#: apps/transfer/templates/transfer/order.django-html:311
 msgid "SEND REQUEST FOR FREE"
 msgstr "FİYAT AL"
 

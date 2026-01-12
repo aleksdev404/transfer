@@ -4,7 +4,10 @@
 {% load i18n %}
 {% load transfers %}
 
-
+{% block head %}
+    <meta property="og:title" content="{{ object.name }}">
+    <meta property="og:image" content="{{ object.image.url }}">
+{% endblock %}
 
 {% block title %}
 {{ object.name }}
