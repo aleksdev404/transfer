@@ -167,8 +167,6 @@ msgid "Contact data"
 msgstr "Связаться"
 
 #: apps/transfer/templates/origin/header.django-html:91
-#, fuzzy
-#| msgid "Get Excursion"
 msgid "Get excursion"
 msgstr "Туры"
 
