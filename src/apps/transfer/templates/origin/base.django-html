@@ -19,6 +19,8 @@
         <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
     {% endblock head %}
     
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta name="description" content="{% trans 'Private transfers in Istanbul — IST & SAW airports, hotels, city center and any destination. Comfortable vehicles, fixed prices, easy online booking.' %}">
     <meta name="keywords" content="{% trans 'Istanbul transfer, airport transfer IST, SAW transfer, Istanbul taxi, private transfer, hotel to airport transfer' %}">
     <meta property="og:description" content="{% trans 'Reliable private transfers in Istanbul: airports, hotels and any routes. Fixed price, no hidden fees, WhatsApp support.' %}">
