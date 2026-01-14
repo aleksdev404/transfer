@@ -91,3 +91,17 @@ nav.mean-nav
 {
     border-top: none;
 }
+
+.home-page__vito
+{
+    width: 100%;
+    transform: translateY(5rem);
+}
+
+@media (max-width: 992px)
+{
+    .home-page__vito
+    {
+        transform: translateY(2rem);
+    }   
+}

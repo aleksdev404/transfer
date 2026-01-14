@@ -19,13 +19,11 @@
                         <div class="banner-content">
                             <span class="top-title wow animate__animated animate__fadeInDown"
                                 data-wow-delay="1s"
+                                style="color: white"
                             >
                                 <i class="fa-solid fa-location-dot"></i> Istanbul, Turkey
                             </span>
-                            <h1 class="wow animate__animated animate__fadeInDown" data-wow-delay="1s">{% trans "Luxury, Comfortable And Safe Transfer" %}</h1>
-                            <p class="wow animate__animated animate__fadeInLeft" data-wow-delay="1s">
-                                {% trans "You can take advantage of our airport transfer service to catch your plane on time or to go to your destination comfortably after many tiring journeys." %}
-                            </p>
+                            <h1 class="wow animate__animated animate__fadeInDown" data-wow-delay="1s" style="color: white">{% trans "Luxury, Comfortable And Safe Transfer" %}</h1>
                             <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="1s">
                                 <a href="{% url 'transfer:order' %}" class="default-btn">
                                     <span>{% trans "GET TRANSFER" %}</span>
