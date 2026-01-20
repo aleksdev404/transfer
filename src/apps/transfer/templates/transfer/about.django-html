@@ -38,7 +38,7 @@
                         {% trans "We are a tour operator providing services in transfer and tour areas." %}
                     </h2>
                     <p>
-                        {% trans "Island Travel provides professional transportation services, ensuring safe and comfortable transfers from airports and any location you specify to your desired destination." %}
+                        {% trans "IstLand Travel provides professional transportation services, ensuring safe and comfortable transfers from airports and any location you specify to your desired destination." %}
                     </p>
                     <ul>
                         <li>

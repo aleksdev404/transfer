@@ -193,11 +193,11 @@ msgstr "Мы тур оператор предоставляющий услуги
 
 #: apps/transfer/templates/transfer/about.django-html:41
 msgid ""
-"Island Travel provides professional transportation services, ensuring safe "
+"IstLand Travel provides professional transportation services, ensuring safe "
 "and comfortable transfers from airports and any location you specify to your "
 "desired destination."
 msgstr ""
-"Island Travel предоставляет профессиональные транспортные услуги, "
+"IstLand Travel предоставляет профессиональные транспортные услуги, "
 "обеспечивая безопасные и комфортные поездки из аэропортов и любых указанных "
 "вами точек к нужному вам месту назначения."
 
@@ -491,7 +491,7 @@ msgstr "Ваше сообщение успешно отправлено!"
 #~ msgstr "ХОЧУ ЭТОТ ТУР"
 
 #~ msgid ""
-#~ "As ISLAND TRAVEL, we have been serving you with our professional staff "
+#~ "As IstLand Travel, we have been serving you with our professional staff "
 #~ "since 2004. We take you from Antalya airport to Lara, Belek, Side, "
 #~ "Alanya, Kemer and all other cities and holiday resorts, as well as from "
 #~ "the points you want and specify, and take you safely to the place you "
