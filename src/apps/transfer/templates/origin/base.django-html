@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     
     {% block head %}
-        <meta property="og:title" content="{% trans 'IslandTravel — Airport, Hotel, City' %}">
+        <meta property="og:title" content="{% trans 'IstLand Travel — Airport, Hotel, City' %}">
         <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
     {% endblock head %}
     

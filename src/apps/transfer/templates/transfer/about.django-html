@@ -5,7 +5,7 @@
 {% load transfers %}
 
 {% block head %}
-    <meta property="og:title" content="{% trans 'IslandTravel — About' %}">
+    <meta property="og:title" content="{% trans 'IstLand Travel — About' %}">
     <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
 {% endblock %}
 

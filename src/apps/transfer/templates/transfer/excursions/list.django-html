@@ -4,7 +4,7 @@
 {% load i18n %}
 
 {% block head %}
-    <meta property="og:title" content="{% trans 'IslandTravel — Excursions' %}">
+    <meta property="og:title" content="{% trans 'IstLand Travel — Excursions' %}">
     <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
 {% endblock %}
 

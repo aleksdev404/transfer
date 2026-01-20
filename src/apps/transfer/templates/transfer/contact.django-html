@@ -6,7 +6,7 @@
 {% load widget_tweaks %}
 
 {% block head %}
-    <meta property="og:title" content="{% trans 'IslandTravel — Contact' %}">
+    <meta property="og:title" content="{% trans 'IstLand Travel — Contact' %}">
     <meta property="og:image" content="{% static '' %}/img/og/general.jpeg">
 {% endblock %}
 

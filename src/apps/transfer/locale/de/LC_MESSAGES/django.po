@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-12 17:47+0000\n"
+"POT-Creation-Date: 2026-01-20 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,20 +89,20 @@ msgstr "Vertrag über den Fernabsatz"
 msgid "Privacy Policy"
 msgstr "Datenschutz-Bestimmungen"
 
-#: apps/transfer/templates/origin/base.django-html:17
-msgid "IslandTravel — Airport, Hotel, City"
-msgstr "IslandTravel — Flughafen, Hotel, Stadt"
+#: apps/transfer/templates/origin/base.django-html:18
+msgid "IstLand Travel — Airport, Hotel, City"
+msgstr "IstLand Travel — Flughafen, Hotel, Stadt"
 
-#: apps/transfer/templates/origin/base.django-html:21
+#: apps/transfer/templates/origin/base.django-html:24
 msgid ""
 "Private transfers in Istanbul — IST & SAW airports, hotels, city center and "
 "any destination. Comfortable vehicles, fixed prices, easy online booking."
 msgstr ""
-"Private Transfers in Istanbul — die Flughäfen IST & SAW, Hotels, Stadtzentrum "
-"und jedes beliebige Ziel. Komfortable Fahrzeuge, feste Preise, einfache "
-"Online-Buchung."
+"Private Transfers in Istanbul — die Flughäfen IST & SAW, Hotels, "
+"Stadtzentrum und jedes beliebige Ziel. Komfortable Fahrzeuge, feste Preise, "
+"einfache Online-Buchung."
 
-#: apps/transfer/templates/origin/base.django-html:22
+#: apps/transfer/templates/origin/base.django-html:25
 msgid ""
 "Istanbul transfer, airport transfer IST, SAW transfer, Istanbul taxi, "
 "private transfer, hotel to airport transfer"
@@ -110,13 +110,18 @@ msgstr ""
 "Istanbul Transfer, Flughafentransfer IST, SAW Transfer, Istanbul Taxi, "
 "Privattransfer, Hotel-zum-Flughafen-Transfer"
 
-#: apps/transfer/templates/origin/base.django-html:23
+#: apps/transfer/templates/origin/base.django-html:26
 msgid ""
 "Reliable private transfers in Istanbul: airports, hotels and any routes. "
 "Fixed price, no hidden fees, WhatsApp support."
 msgstr ""
 "Zuverlässige private Transfers in Istanbul: Flughäfen, Hotels und alle "
 "Routen. Fester Preis, keine versteckten Gebühren, WhatsApp-Support."
+
+#: apps/transfer/templates/origin/base.django-html:51
+#: apps/transfer/templates/transfer/home/index.django-html:26
+msgid "Luxury, Comfortable And Safe Transfer"
+msgstr "Luxuriöser, komfortabler und sicherer Transfer"
 
 #: apps/transfer/templates/origin/footer.django-html:29
 msgid "Excursion itineraries"
@@ -174,8 +179,8 @@ msgid "BUY TRANSFER"
 msgstr "ÜBERTRAGUNG KAUFEN"
 
 #: apps/transfer/templates/transfer/about.django-html:8
-msgid "IslandTravel — About"
-msgstr "IslandTravel — Über uns"
+msgid "IstLand Travel — About"
+msgstr "IstLand Travel — Über uns"
 
 #: apps/transfer/templates/transfer/about.django-html:17
 msgid "OUR VISION"
@@ -214,22 +219,22 @@ msgid "Wide range of prices"
 msgstr "Große Preisspanne"
 
 #: apps/transfer/templates/transfer/about.django-html:73
-#: apps/transfer/templates/transfer/home/index.django-html:81
+#: apps/transfer/templates/transfer/home/index.django-html:79
 msgid "Excursion programs"
 msgstr "Excursionprogramme"
 
 #: apps/transfer/templates/transfer/about.django-html:83
-#: apps/transfer/templates/transfer/home/index.django-html:91
+#: apps/transfer/templates/transfer/home/index.django-html:89
 msgid "Language support"
 msgstr "Sprachunterstützung"
 
 #: apps/transfer/templates/transfer/about.django-html:93
-#: apps/transfer/templates/transfer/home/index.django-html:101
+#: apps/transfer/templates/transfer/home/index.django-html:99
 msgid "Happy customer"
 msgstr "Zufriedener Kunde"
 
 #: apps/transfer/templates/transfer/about.django-html:103
-#: apps/transfer/templates/transfer/home/index.django-html:111
+#: apps/transfer/templates/transfer/home/index.django-html:109
 msgid "Completed transfers"
 msgstr "Abgeschlossene Überweisungen"
 
@@ -239,8 +244,8 @@ msgid "Home Page"
 msgstr "Homepage"
 
 #: apps/transfer/templates/transfer/contact.django-html:9
-msgid "IslandTravel — Contact"
-msgstr "IslandTravel — Kontakt"
+msgid "IstLand Travel — Contact"
+msgstr "IstLand Travel — Kontakt"
 
 #: apps/transfer/templates/transfer/contact.django-html:20
 msgid "GET THE HOTEST PROMOTIONS AND DISCOUNTS"
@@ -316,8 +321,8 @@ msgid "Tags"
 msgstr "Stichwörter"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:7
-msgid "IslandTravel — Excursions"
-msgstr "IslandTravel — Ausflüge"
+msgid "IstLand Travel — Excursions"
+msgstr "IstLand Travel — Ausflüge"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:12
 #, fuzzy
@@ -330,7 +335,7 @@ msgid "BUY EXCURSION ONLINE"
 msgstr "TOUR ONLINE KAUFEN"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:33
-#: apps/transfer/templates/transfer/home/index.django-html:62
+#: apps/transfer/templates/transfer/home/index.django-html:60
 msgid "READ MORE"
 msgstr "WEITERLESEN"
 
@@ -347,8 +352,8 @@ msgid "NEXT"
 msgstr "NÄCHSTEN"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:8
-msgid "IslandTravel — FAQ"
-msgstr "IslandTravel — FAQ"
+msgid "IstLand Travel — FAQ"
+msgstr "IstLand Travel — FAQ"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:13
 msgid "Frequently asked questions"
@@ -370,51 +375,13 @@ msgstr "Schreiben Sie uns eine Nachricht für jede Anfrage"
 msgid "Send question"
 msgstr "Frage senden"
 
-#: apps/transfer/templates/transfer/home/index.django-html:25
-msgid "Luxury, Comfortable And Safe Transfer"
-msgstr "Luxuriöser, komfortabler und sicherer Transfer"
-
-#: apps/transfer/templates/transfer/home/index.django-html:27
-msgid ""
-"You can take advantage of our airport transfer service to catch your plane "
-"on time or to go to your destination comfortably after many tiring journeys."
-msgstr ""
-"Sie können unseren Flughafentransfer-Service nutzen, um Ihr Flugzeug "
-"pünktlich zu erreichen oder nach vielen anstrengenden Reisen bequem an Ihr "
-"Ziel zu gelangen."
-
-#: apps/transfer/templates/transfer/home/index.django-html:31
+#: apps/transfer/templates/transfer/home/index.django-html:29
 msgid "GET TRANSFER"
 msgstr "ÜBERTRAGUNG KAUFEN"
 
-#: apps/transfer/templates/transfer/home/index.django-html:34
+#: apps/transfer/templates/transfer/home/index.django-html:32
 msgid "CONTACT US"
 msgstr "KONTAKTIERE UNS"
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:10
-msgid "GET TRANSFER PRICE"
-msgstr "ÜBERTRAGUNG KAUFEN"
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:23
-msgid ""
-"Please fill out the transfer form below so that we can offer you a price "
-"quote."
-msgstr ""
-"Bitte füllen Sie das untenstehende Überweisungsformular aus, damit wir Ihnen "
-"ein Preisangebot unterbreiten können."
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:34
-msgid ""
-"Our support team will contact you soon and offer you a price quote. Thank "
-"you for your attention. You can reach us 24/7 via the support line."
-msgstr ""
-"Unser Support-Team wird sich in Kürze mit Ihnen in Verbindung setzen und "
-"Ihnen ein Preisangebot unterbreiten. Danke für Ihre Aufmerksamkeit. Sie "
-"erreichen uns rund um die Uhr über die Support-Hotline."
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:113
-msgid "SUBMIT"
-msgstr "SENDEN"
 
 #: apps/transfer/templates/transfer/order.django-html:9
 #, fuzzy
@@ -486,6 +453,36 @@ msgstr "Formular erfolgreich gesendet!"
 #: apps/transfer/views.py:124
 msgid "Your message sent successfully!"
 msgstr "Ihre Nachricht wurde erfolgreich gesendet!"
+
+#~ msgid ""
+#~ "You can take advantage of our airport transfer service to catch your "
+#~ "plane on time or to go to your destination comfortably after many tiring "
+#~ "journeys."
+#~ msgstr ""
+#~ "Sie können unseren Flughafentransfer-Service nutzen, um Ihr Flugzeug "
+#~ "pünktlich zu erreichen oder nach vielen anstrengenden Reisen bequem an "
+#~ "Ihr Ziel zu gelangen."
+
+#~ msgid "GET TRANSFER PRICE"
+#~ msgstr "ÜBERTRAGUNG KAUFEN"
+
+#~ msgid ""
+#~ "Please fill out the transfer form below so that we can offer you a price "
+#~ "quote."
+#~ msgstr ""
+#~ "Bitte füllen Sie das untenstehende Überweisungsformular aus, damit wir "
+#~ "Ihnen ein Preisangebot unterbreiten können."
+
+#~ msgid ""
+#~ "Our support team will contact you soon and offer you a price quote. Thank "
+#~ "you for your attention. You can reach us 24/7 via the support line."
+#~ msgstr ""
+#~ "Unser Support-Team wird sich in Kürze mit Ihnen in Verbindung setzen und "
+#~ "Ihnen ein Preisangebot unterbreiten. Danke für Ihre Aufmerksamkeit. Sie "
+#~ "erreichen uns rund um die Uhr über die Support-Hotline."
+
+#~ msgid "SUBMIT"
+#~ msgstr "SENDEN"
 
 #~ msgid ""
 #~ "As IstLand Travel, we have been serving you with our professional staff "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-12 17:47+0000\n"
+"POT-Creation-Date: 2026-01-20 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,20 +91,20 @@ msgstr "Правила и Условия"
 msgid "Privacy Policy"
 msgstr "Политика конфиденциальности"
 
-#: apps/transfer/templates/origin/base.django-html:17
-msgid "IslandTravel — Airport, Hotel, City"
-msgstr "IslandTravel — Аэропорт, отель, город"
+#: apps/transfer/templates/origin/base.django-html:18
+msgid "IstLand Travel — Airport, Hotel, City"
+msgstr "IstLand Travel — Аэропорт, отель, город"
 
-#: apps/transfer/templates/origin/base.django-html:21
+#: apps/transfer/templates/origin/base.django-html:24
 msgid ""
 "Private transfers in Istanbul — IST & SAW airports, hotels, city center and "
 "any destination. Comfortable vehicles, fixed prices, easy online booking."
 msgstr ""
 "Частные трансферы в Стамбуле — аэропорты IST и SAW, отели, центр города и "
-"любые направления. Комфортные автомобили, фиксированные цены, простое "
-"онлайн-бронирование."
+"любые направления. Комфортные автомобили, фиксированные цены, простое онлайн-"
+"бронирование."
 
-#: apps/transfer/templates/origin/base.django-html:22
+#: apps/transfer/templates/origin/base.django-html:25
 msgid ""
 "Istanbul transfer, airport transfer IST, SAW transfer, Istanbul taxi, "
 "private transfer, hotel to airport transfer"
@@ -112,13 +112,18 @@ msgstr ""
 "трансфер Стамбул, трансфер в аэропорт IST, трансфер SAW, такси Стамбул, "
 "частный трансфер, трансфер из отеля в аэропорт"
 
-#: apps/transfer/templates/origin/base.django-html:23
+#: apps/transfer/templates/origin/base.django-html:26
 msgid ""
 "Reliable private transfers in Istanbul: airports, hotels and any routes. "
 "Fixed price, no hidden fees, WhatsApp support."
 msgstr ""
 "Надёжные частные трансферы в Стамбуле: аэропорты, отели и любые маршруты. "
 "Фиксированная цена, без скрытых платежей, поддержка в WhatsApp."
+
+#: apps/transfer/templates/origin/base.django-html:51
+#: apps/transfer/templates/transfer/home/index.django-html:26
+msgid "Luxury, Comfortable And Safe Transfer"
+msgstr "Удобный, комфортный и безопасный трансфер"
 
 #: apps/transfer/templates/origin/footer.django-html:29
 msgid "Excursion itineraries"
@@ -176,8 +181,8 @@ msgid "BUY TRANSFER"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
 #: apps/transfer/templates/transfer/about.django-html:8
-msgid "IslandTravel — About"
-msgstr "IslandTravel — О нас"
+msgid "IstLand Travel — About"
+msgstr "IstLand Travel — О нас"
 
 #: apps/transfer/templates/transfer/about.django-html:17
 msgid "OUR VISION"
@@ -214,22 +219,22 @@ msgid "Wide range of prices"
 msgstr "Широкий выбор цен и услуг"
 
 #: apps/transfer/templates/transfer/about.django-html:73
-#: apps/transfer/templates/transfer/home/index.django-html:81
+#: apps/transfer/templates/transfer/home/index.django-html:79
 msgid "Excursion programs"
 msgstr "Тур программы"
 
 #: apps/transfer/templates/transfer/about.django-html:83
-#: apps/transfer/templates/transfer/home/index.django-html:91
+#: apps/transfer/templates/transfer/home/index.django-html:89
 msgid "Language support"
 msgstr "Языков поддерживается"
 
 #: apps/transfer/templates/transfer/about.django-html:93
-#: apps/transfer/templates/transfer/home/index.django-html:101
+#: apps/transfer/templates/transfer/home/index.django-html:99
 msgid "Happy customer"
 msgstr "Довольных клиентов"
 
 #: apps/transfer/templates/transfer/about.django-html:103
-#: apps/transfer/templates/transfer/home/index.django-html:111
+#: apps/transfer/templates/transfer/home/index.django-html:109
 msgid "Completed transfers"
 msgstr "Законченных трансферов"
 
@@ -239,8 +244,8 @@ msgid "Home Page"
 msgstr "Главная"
 
 #: apps/transfer/templates/transfer/contact.django-html:9
-msgid "IslandTravel — Contact"
-msgstr "IslandTravel — Контакты"
+msgid "IstLand Travel — Contact"
+msgstr "IstLand Travel — Контакты"
 
 #: apps/transfer/templates/transfer/contact.django-html:20
 msgid "GET THE HOTEST PROMOTIONS AND DISCOUNTS"
@@ -316,8 +321,8 @@ msgid "Tags"
 msgstr "Теги"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:7
-msgid "IslandTravel — Excursions"
-msgstr "IslandTravel — Экскурсии"
+msgid "IstLand Travel — Excursions"
+msgstr "IstLand Travel — Экскурсии"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:12
 msgid "Excursion List"
@@ -330,7 +335,7 @@ msgid "BUY EXCURSION ONLINE"
 msgstr "ЗАКАЖИТЕ ЭКСКУРСИЮ ОНЛАЙН"
 
 #: apps/transfer/templates/transfer/excursions/list.django-html:33
-#: apps/transfer/templates/transfer/home/index.django-html:62
+#: apps/transfer/templates/transfer/home/index.django-html:60
 msgid "READ MORE"
 msgstr "УЗНАТЬ БОЛЬШЕ"
 
@@ -347,8 +352,8 @@ msgid "NEXT"
 msgstr "СЛЕДУЮЩАЯ"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:8
-msgid "IslandTravel — FAQ"
-msgstr "IslandTravel — Вопросы и ответы"
+msgid "IstLand Travel — FAQ"
+msgstr "IstLand Travel — Вопросы и ответы"
 
 #: apps/transfer/templates/transfer/faq-list.django-html:13
 msgid "Frequently asked questions"
@@ -372,50 +377,13 @@ msgstr ""
 msgid "Send question"
 msgstr "Отправить вопрос"
 
-#: apps/transfer/templates/transfer/home/index.django-html:25
-msgid "Luxury, Comfortable And Safe Transfer"
-msgstr "Удобный, комфортный и безопасный трансфер"
-
-#: apps/transfer/templates/transfer/home/index.django-html:27
-msgid ""
-"You can take advantage of our airport transfer service to catch your plane "
-"on time or to go to your destination comfortably after many tiring journeys."
-msgstr ""
-"Вы можете воспользоваться нашими услугами трансфера из аеропорта для того "
-"что бы добраться в место назначения, мы всё сделаем за вас а вам остаётся "
-"только довериться нашему опыту."
-
-#: apps/transfer/templates/transfer/home/index.django-html:31
+#: apps/transfer/templates/transfer/home/index.django-html:29
 msgid "GET TRANSFER"
 msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
 
-#: apps/transfer/templates/transfer/home/index.django-html:34
+#: apps/transfer/templates/transfer/home/index.django-html:32
 msgid "CONTACT US"
 msgstr "СВЯЗАТЬСЯ"
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:10
-msgid "GET TRANSFER PRICE"
-msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:23
-msgid ""
-"Please fill out the transfer form below so that we can offer you a price "
-"quote."
-msgstr ""
-"Пожалуйста заполните форму для того что бы мы предложили вам оптимальную "
-"стоимость пакета."
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:34
-msgid ""
-"Our support team will contact you soon and offer you a price quote. Thank "
-"you for your attention. You can reach us 24/7 via the support line."
-msgstr ""
-"Наша служба поддержи свяжется с вами в ближайшее время что бы обсудить "
-"детали заказа. Вы так же можете связаться с нами 24/7 через службу поддержки."
-
-#: apps/transfer/templates/transfer/home/quick-form.django-html:113
-msgid "SUBMIT"
-msgstr "ОТПРАВИТЬ"
 
 #: apps/transfer/templates/transfer/order.django-html:9
 #, fuzzy
@@ -486,6 +454,36 @@ msgstr "Форма отправлена успешно!"
 #: apps/transfer/views.py:124
 msgid "Your message sent successfully!"
 msgstr "Ваше сообщение успешно отправлено!"
+
+#~ msgid ""
+#~ "You can take advantage of our airport transfer service to catch your "
+#~ "plane on time or to go to your destination comfortably after many tiring "
+#~ "journeys."
+#~ msgstr ""
+#~ "Вы можете воспользоваться нашими услугами трансфера из аеропорта для того "
+#~ "что бы добраться в место назначения, мы всё сделаем за вас а вам остаётся "
+#~ "только довериться нашему опыту."
+
+#~ msgid "GET TRANSFER PRICE"
+#~ msgstr "ЗАКАЗАТЬ ТРАНСФЕР"
+
+#~ msgid ""
+#~ "Please fill out the transfer form below so that we can offer you a price "
+#~ "quote."
+#~ msgstr ""
+#~ "Пожалуйста заполните форму для того что бы мы предложили вам оптимальную "
+#~ "стоимость пакета."
+
+#~ msgid ""
+#~ "Our support team will contact you soon and offer you a price quote. Thank "
+#~ "you for your attention. You can reach us 24/7 via the support line."
+#~ msgstr ""
+#~ "Наша служба поддержи свяжется с вами в ближайшее время что бы обсудить "
+#~ "детали заказа. Вы так же можете связаться с нами 24/7 через службу "
+#~ "поддержки."
+
+#~ msgid "SUBMIT"
+#~ msgstr "ОТПРАВИТЬ"
 
 #~ msgid "I WANT THIS TOUR"
 #~ msgstr "ХОЧУ ЭТОТ ТУР"
